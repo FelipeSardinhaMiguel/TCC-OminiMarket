@@ -1,0 +1,35 @@
+.Tenis
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Camisetas
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Perfumes
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Calças
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Bijuteriass
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.Maquiagens
+{
+    display: flex;
+    justify-content: space-around;
+}
