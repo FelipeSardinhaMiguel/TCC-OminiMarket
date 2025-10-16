@@ -22,7 +22,7 @@
     justify-content: space-around;
 }
 
-.Bijuteriass
+.Bijuterias
 {
     display: flex;
     justify-content: space-around;
@@ -35,6 +35,17 @@
 }
 
 .Oculos
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.barra1
+{
+    background-color: rgb(30, 143, 255);
+}
+
+.itemBarra
 {
     display: flex;
     justify-content: space-around;
