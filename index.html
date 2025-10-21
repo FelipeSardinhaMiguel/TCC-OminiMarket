@@ -10,31 +10,28 @@
 </head>
 <body>
     
-    <button class="abrirMenu" type="button" onclick="abrirMenu()"><img src="IMG/espada de grama.webp" alt=""></button>
+    <button class="abrirMenu" type="button" onclick="abrirMenu()"><img src="IMG/espada de grama.webp" alt="" height="100"></button>
 
     <nav class="barra1" id="menuLateral">
         <ul class="itemBarra">
-            <span class="fecharMenu" onclick="fecharMenu()"><img src="IMG/espada de grama.webp" alt=""></span>
+            <span class="fecharMenu" onclick="fecharMenu()"><img src="IMG/espada de grama.webp" alt="" height="75"></span>
             <li><a href="entrar.html">Entrar</a></li>
             <li><a href="historico.html">Histórico de Compras</a></li>
             <li><a href="">Produtos Favoritos</a></li>
-            <li><a href="">Comerciantes Favoritos</a></li>
-            <li><a href="comprarDps.html">Para Comprar Depois</a></li>
-
+            <li><a href="comprarDps.html">Comprar Depois</a></li>
             <li class="subMenu">
                 <a href="" class="produtosItens">Produtos</a>
                 <ul>
-                    <li><a href="">Tenis</a></li>
-                    <li><a href="">Camisetas</a></li>
-                    <li><a href="">Perfumes</a></li>
-                    <li><a href="">Calças</a></li>
-                    <li><a href="">Bijuterias</a></li>
-                    <li><a href="">Maquiagens</a></li>
-                    <li><a href="">Óculos</a></li>
-                    <li><a href="">Utensílios domésticos</a></li>
-                    <li><a href="">Materiais escolares</a></li>
-                    <li><a href="">Games</a></li>
-                    <li><a href="">Folha Lisa</a></li>
+                    <li class="subMenuItens"><a href="#Tenis">Tenis</a></li>
+                    <li class="subMenuItens"><a href="#Camisetas">Camisetas</a></li>
+                    <li class="subMenuItens"><a href="#Perfumes">Perfumes</a></li>
+                    <li class="subMenuItens"><a href="#Calças">Calças</a></li>
+                    <li class="subMenuItens"><a href="#Bijuterias">Bijuterias</a></li>
+                    <li class="subMenuItens"><a href="#Maquiagens">Maquiagens</a></li>
+                    <li class="subMenuItens"><a href="#Oculos">Óculos</a></li>
+                    <li class="subMenuItens"><a href="#Utensilios">Utensílios domésticos</a></li>
+                    <li class="subMenuItens"><a href="#Escola">Materiais escolares</a></li>
+                    <li class="subMenuItens"><a href="#Games">Video Games</a></li>
                 </ul>
             </li>
         </ul>
@@ -46,7 +43,7 @@
     </div>
     
     
-    <h1>Tênis</h1>
+    <h1 id="Tenis">Tênis</h1>
     <div class="Tenis">
         <img src="IMG/Adidas preto.jfif" alt="" height="200">
         <img src="IMG/All Stars cano baixo.jfif" alt="" height="200">
@@ -59,7 +56,7 @@
     <br>
     <hr>
     
-    <h1>Camisetas</h1>
+    <h1 id="Camisetas">Camisetas</h1>
     <div class="Camisetas">
         <img src="IMG/camisa feminina preta.jfif" alt="" height="200">
         <img src="IMG/camisa infantil brasil.jfif" alt="" height="200">
@@ -72,7 +69,7 @@
     <br>
     <hr>
     
-    <h1>Perfumes</h1>
+    <h1 id="Perfumes">Perfumes</h1>
     <div class="Perfumes">
         <img src="" alt="" height="200">
         <img src="" alt="" height="200">
@@ -85,7 +82,7 @@
     <br>
     <hr>
     
-    <h1>Calças</h1>
+    <h1 id="Calças">Calças</h1>
     <div class="Calças">
         <img src="" alt="" height="200">
         <img src="" alt="" height="200">
@@ -98,7 +95,7 @@
     <br>
     <hr>
     
-    <h1>Bijuterias</h1>
+    <h1 id="Bijuterias">Bijuterias</h1>
     <div class="Bijuterias">
         <img src="" alt="" height="200">
         <img src="" alt="" height="200">
@@ -111,7 +108,7 @@
     <br>
     <hr>
     
-    <h1>Maquiagens</h1>
+    <h1 id="Maquiagens">Maquiagens</h1>
     <div class="Maquiagens">
         <img src="" alt="" height="200">
         <img src="" alt="" height="200">
@@ -124,7 +121,7 @@
     <br>
     <hr>
     
-    <h1>Oculos</h1>
+    <h1 id="Oculos">Oculos</h1>
     <div class="Oculos">
         <img src="" alt="" height="200">
         <img src="" alt="" height="200">
@@ -136,7 +133,45 @@
     </div>
     <br>
     <hr>
+
+    <h1 id="Utensilios">Utensílios Domesticos</h1>
+    <div class="UtensiliosDomesticos">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+    </div>
+    <br>
+    <hr>
+
+    <h1 id="Escola">Materiais Escolares</h1>
+    <div class="MateriaisEscolares">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+    </div>
+    <br>
+    <hr>
     
+    <h1 id="Games">Video Games</h1>
+    <div class="Games">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+    </div>
+    <br>
+    <hr>
     
     <script src="JS/funcoes.js"></script> <!--Ligação do js no final-->
     

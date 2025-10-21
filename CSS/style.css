@@ -60,3 +60,24 @@
 .itemBarra li a:hover {
   background-color: #0078ff;
 }
+
+
+.subMenuItens
+{
+  list-style-type: lower-roman;
+}
+
+
+/*Efeitos da submenu: Produtos*/
+.subMenu ul
+{
+  display: none;
+}
+
+.subMenu.aberto ul
+{
+  display: block;
+}
+
+/*Efeito de deslizar para o produto*/
+html {scroll-behavior: smooth;}
