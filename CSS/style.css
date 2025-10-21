@@ -4,6 +4,26 @@
     justify-content: space-around;
 }
 
+.abrirMenu
+{
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(30, 143, 255);
+  border: none;
+  padding: 14px 20px;
+}
+
+.fecharMenu
+{
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
 .barra1
 {
     background-color: rgb(30, 143, 255);
@@ -16,26 +36,6 @@
     transition: 0.4s; /* animação suave */
     padding-top: 60px;
     z-index: 1000;
-}
-
-.abrirMenu
-{
-    font-size: 20px;
-    cursor: pointer;
-    color: white;
-    background-color: rgb(30, 143, 255);
-    border: none;
-    padding: 14px 20px;
-}
-
-.close-btn
-{
-    position: absolute;
-    top: 15px;
-    right: 20px;
-    font-size: 30px;
-    color: white;
-    cursor: pointer;
 }
 
 .itemBarra {
