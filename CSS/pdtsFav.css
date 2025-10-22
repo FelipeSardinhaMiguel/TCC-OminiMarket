@@ -1,0 +1,9 @@
+/*Nav bar, submenu e efeito deslizar*/
+
+/*produtos*/
+.pdtsFav
+{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
