@@ -1,7 +1,7 @@
 .Tenis, .Camisetas, .Perfumes, .Calças, .Bijuterias, .Maquiagens, .Oculos
 {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .abrirMenu
@@ -81,3 +81,20 @@
 
 /*Efeito de deslizar para o produto*/
 html {scroll-behavior: smooth;}
+
+.titulo
+{
+  display: flex;
+  justify-content: center;
+}
+
+.categorias
+{
+  display: flex;
+  justify-content: center;
+}
+
+body
+{
+  background-color: gray;
+}
