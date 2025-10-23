@@ -1,6 +1,11 @@
 /*Nav bar, submenu e efeito deslizar*/
 
 /*produtos*/
+body
+{
+    background-color: gray;
+}
+
 .pdtsFav
 {
     list-style-type: none;

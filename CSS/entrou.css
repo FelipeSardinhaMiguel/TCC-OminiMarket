@@ -1,3 +1,88 @@
+/*nav bar, submenu e efeito*/
+.abrirMenu
+{
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+    /*background-color: rgb(30, 143, 255);*/
+    background-color: goldenrod;
+    border: none;
+    padding: 14px 20px;
+}
+
+.fecharMenu
+{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+}
+
+.barra1
+{
+    /*background-color: rgb(30, 143, 255);*/
+    background-color: goldenrod;
+    height: 100%;
+    width: 0; 
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    transition: 0.4s; 
+    padding-top: 60px;
+    z-index: 1000;
+}
+
+.itemBarra {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.itemBarra li {
+    margin: 10px 0;
+}
+
+.itemBarra li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 12px 20px;
+    transition: 0.3s;
+}
+
+.itemBarra li a:hover {
+    background-color: #0078ff;
+}
+
+.subMenuItens
+{
+    list-style-type: none;
+}
+
+.subMenu ul
+{
+    display: none;
+}
+
+.subMenu.aberto ul
+{
+    display: block;
+}
+
+html {scroll-behavior: smooth;}
+
+
+
+
+body
+{
+    background-color: gray;
+}
+
 h1
 {
     display: flex;
