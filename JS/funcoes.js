@@ -1,20 +1,18 @@
-function abrirMenu()
-{
-    document.getElementById("menuLateral").style.width = "250px";
-}
-
-function fecharMenu()
-{
-    document.getElementById("menuLateral").style.width = "0";
-}
-
-
 document.addEventListener("DOMContentLoaded", () => {
-    const subMenu = document.querySelector(".subMenu");
-    const botaoProdutos = subMenu.querySelector(".produtosItens");
+  const subMenus = document.querySelectorAll(".subMenu");
 
-    botaoProdutos.addEventListener("click", (e) => {
-        e.preventDefault(); // impede o link de recarregar a página
-        subMenu.classList.toggle("aberto"); // alterna entre mostrar e esconder
+  subMenus.forEach((menu) => {
+    const botao = menu.querySelector(".Produtos");
+    botao.addEventListener("click", (e) => {
+      e.preventDefault(); // evita que o link recarregue a página
+      menu.classList.toggle("ativo"); // alterna entre mostrar/esconder
+
+      // opcional: fecha outros submenus quando abrir um
+      subMenus.forEach((outro) => {
+        if (outro !== menu) {
+          outro.classList.remove("ativo");
+        }
+      });
     });
+  });
 });

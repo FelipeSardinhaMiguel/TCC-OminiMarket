@@ -5,98 +5,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Inicial</title>
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="shorcut icon" href="IMG/espada de grama.webp">
+    <link rel="shorcut icon" href="IMG/logo tcc.jpeg">
     
 </head>
 <body>
     
-    <button class="abrirMenu" type="button" onclick="abrirMenu()">Menu</button>
-    <h1 class="titulo">OminiMarket</h1>    
-    
-    <nav class="barra1" id="menuLateral">
+    <nav class="faixa">
         <ul class="itemBarra">
-            <span class="fecharMenu" onclick="fecharMenu()" title="Fechar Menu">X</span>
-            <li><a href="index.html">Página Incial</a></li>
-            <li><a href="entrar.html">Entrar</a></li>
-            <li><a href="historico.html">Histórico de Compras</a></li>
-            <li><a href="pdtsFav.html">Produtos Favoritos</a></li>
-            <li><a href="comprarDps.html">Comprar Depois</a></li>
+            <li><a href="perfil.html"><img class="fotoPerfil" src="IMG/Icone.jfif" alt="" height="50"></a></li>
+
             <li class="subMenu">
-                <a href="" class="produtosItens">Produtos</a>
-                <ul>
-                    <li class="subMenuItens"><a href="#Tenis">Tenis</a></li>
-                    <li class="subMenuItens"><a href="#Camisetas">Camisetas</a></li>
-                    <li class="subMenuItens"><a href="#Perfumes">Perfumes</a></li>
-                    <li class="subMenuItens"><a href="#Calças">Calças</a></li>
-                    <li class="subMenuItens"><a href="#Bijuterias">Bijuterias</a></li>
-                    <li class="subMenuItens"><a href="#Maquiagens">Maquiagens</a></li>
-                    <li class="subMenuItens"><a href="#Oculos">Óculos</a></li>
-                    <li class="subMenuItens"><a href="#Utensilios">Utensílios domésticos</a></li>
-                    <li class="subMenuItens"><a href="#Escola">Materiais escolares</a></li>
-                    <li class="subMenuItens"><a href="#Games">Video Games</a></li>
+                <a class="Produtos" href="">Acessórios</a>
+                <ul class="subLista">
+                    <li><a class="linksSubmenu" href="">Aneis</a></li>
+                    <li><a class="linksSubmenu" href="">Brincos</a></li>
+                    <li><a class="linksSubmenu" href="">Colares</a></li>
                 </ul>
             </li>
+
+            <li class="subMenu">
+                <a class="Produtos" href="">Auto Cuidado</a>
+                <ul class="subLista">
+                    <li><a class="linksSubmenu" href="">Maquiagens</a></li>
+                    <li><a class="linksSubmenu" href="">Perfumes</a></li>
+                    <li><a class="linksSubmenu" href="">Unhas</a></li>
+                </ul>
+            </li>
+
+            <li class="subMenu">
+                <a class="Produtos" href="">Eletrônicos</a>
+                <ul class="subLista">
+                    <li><a class="linksSubmenu" href="">Aspiradores de Pó</a></li>
+                    <li><a class="linksSubmenu" href="">Televisões</a></li>
+                    <li><a class="linksSubmenu" href="#Games">Video Games</a></li> <!--Link de html + # ==> abre a página do ponto exato-->
+                </ul>
+            </li>
+
+            <li class="subMenu">
+                <a class="Produtos" href="">Materiais</a>
+                <ul class="subLista">
+                    <li><a class="linksSubmenu" href="">Construção</a></li>
+                    <li><a class="linksSubmenu" href="">Didaticos</a></li>
+                    <li><a class="linksSubmenu" href="">Mecanicos</a></li>
+                </ul>
+            </li>
+
+            <li class="subMenu">
+                <a class="Produtos" href="">Roupas</a>
+                <ul class="subLista">
+                    <li><a class="linksSubmenu" href="">Calças</a></li>
+                    <li><a class="linksSubmenu" href="">Camisas</a></li>
+                    <li><a class="linksSubmenu" href="">Tenis</a></li>
+                </ul>
+            </li>
+            
+            <div><button type="button"><a href="entrar.html">Entrar</a></button>
+            <button type="button"><a href="cadastrar.html">Cadastrar-se</a></button></div>
         </ul>
     </nav>
 
-    <input type="text" name="" id="">
-    <button></button>
-    <!--teste-->
+    <h1 class="titulo">Bem vindo ao OminiMarket!</h1>
+    <div class="pesquisa">
+    <input type="text" name="" id="" placeholder="Procure produtos ou vendedores">
+    <button>Buscar</button>
+    </div>
 
-    <h2 class="categorias" id="Tenis">Tênis</h2>
-    <div class="Tenis">
-        <img src="IMG/Adidas preto.jfif" alt="" height="200">
-        <img src="IMG/All Stars cano baixo.jfif" alt="" height="200">
-        <img src="IMG/Nike rosa.jfif" alt="" height="200">
-        <img src="IMG/Nike vermelho preto.jfif" alt="" height="200">
-        <img src="IMG/Olympicus preto.jfif" alt="" height="200">
-        <img src="IMG/sapato masculino.jpg" alt="" height="200">
-        <img src="IMG/Tenis massa azul.jpg" alt="" height="200">
-    </div>
-    <br>
     <hr>
-    
-    <h2 class="categorias" id="Camisetas">Camisetas</h2>
-    <div class="Camisetas">
-        <img src="IMG/camisa feminina preta.jfif" alt="" height="200">
-        <img src="IMG/camisa infantil brasil.jfif" alt="" height="200">
-        <img src="IMG/camisa infantil mine.webp" alt="" height="200">
-        <img src="IMG/camiseta_basic_color_preto.webp" alt="" height="200">
-        <img src="IMG/camisa lisa bege masculina.jfif" alt="" height="200">
-        <img src="IMG/camisa feminina branca.jpg" alt="" height="200">
-        <img src="IMG/camiseta feminina vinho.avif" alt="" height="200">
+    <h1 class="titulo">Relacionados as suas buscas recentes.</h1>
+    <div class="recomendações">
+        <div class="recomendacao1"><img class="imgRecomendacao" src="IMG/espada de grama.webp" alt="" width="150">
+        <h3>Espada de grama</h3>
+        <p>Descrição: Uma espada feita inteiramente de grama amaldiçoada.</p></div>
+        
+        <div class="recomendacao2"><img  class="imgRecomendacao" src="IMG/espada de grama.webp" alt="" width="150">
+        <h3>Espada de grama</h3>
+        <p>Descrição: Uma espada feita inteiramente de grama amaldiçoada.</p></div>
+        
+        <div class="recomendacao3"><img  class="imgRecomendacao" src="IMG/espada de grama.webp" alt="" width="150">
+        <h3>Espada de grama</h3>
+        <p>Descrição: Uma espada feita inteiramente de grama amaldiçoada.</p></div>
+
+        <div class="recomendacao4"><img  class="imgRecomendacao" src="IMG/espada de grama.webp" alt="" width="150">
+        <h3>Espada de grama</h3>
+        <p>Descrição: Uma espada feita inteiramente de grama amaldiçoada.</p></div>
+            
     </div>
-    <br>
-    <hr>
-    
-    <h2 class="categorias" id="Perfumes">Perfumes</h2>
-    <div class="Perfumes">
-        <img src="" alt="" height="200">
-        <img src="" alt="" height="200">
-        <img src="" alt="" height="200">
-        <img src="" alt="" height="200">
-        <img src="" alt="" height="200">
-        <img src="" alt="" height="200">
-        <img src="" alt="" height="200">
-    </div>
-    <br>
-    <hr>
-    
-    <h2 class="categorias" id="Calças">Calças</h2>
-    <div class="Calças">
-        <img src="" alt="" height="200">
-        <img src="" alt="" height="200">
-        <img src="" alt="" height="200">
-        <img src="" alt="" height="200">
-        <img src="" alt="" height="200">
-        <img src="" alt="" height="200">
-        <img src="" alt="" height="200">
-    </div>
-    <br>
-    <hr>
-    
-    <h2 class="categorias" id="Bijuterias">Bijuterias</h2>
-    <div class="Bijuterias">
+    <!--<br><br><br>
+
+    <div class="recomendações">
+        <div class="recomendacao1"><img class="imgRecomendacao" src="IMG/espada de grama.webp" alt="" width="150">
+        <h3>Espada de grama</h3>
+        <p>Descrição: Uma espada feita inteiramente de grama amaldiçoada.</p></div>
+        
+        <div class="recomendacao2"><img  class="imgRecomendacao" src="IMG/espada de grama.webp" alt="" width="150">
+        <h3>Espada de grama</h3>
+        <p>Descrição: Uma espada feita inteiramente de grama amaldiçoada.</p></div>
+        
+        <div class="recomendacao3"><img  class="imgRecomendacao" src="IMG/espada de grama.webp" alt="" width="150">
+        <h3>Espada de grama</h3>
+        <p>Descrição: Uma espada feita inteiramente de grama amaldiçoada.</p></div>
+
+        <div class="recomendacao4"><img  class="imgRecomendacao" src="IMG/espada de grama.webp" alt="" width="150">
+            <h3>Espada de grama</h3>
+            <p>Descrição: Uma espada feita inteiramente de grama amaldiçoada.</p></div>
+            
+    </div>-->
+        
+    <h2 class="categorias" id="Bijuterias">Acessórios</h2>
+    <div class="Acessórios">
         <img src="IMG/brinco azul.jpg" alt="" height="200">
         <img src="IMG/brinco comprido verde.jpg" alt="" height="200">
         <img src="IMG/brinco coruja.jpeg" alt="" height="200">
@@ -107,9 +123,10 @@
     </div>
     <br>
     <hr>
-    
-    <h2 class="categorias" id="Maquiagens">Maquiagens</h2>
-    <div class="Maquiagens">
+
+    <h2 class="categorias" id="Roupas">Auto Cuidado</h2>
+    <div class="autoCuidado">
+
         <img src="IMG/base em po.jfif" alt="" height="200">
         <img src="IMG/base liquida.webp" alt="" height="200">
         <img src="IMG/batom avon rosa.jpg" alt="" height="200">
@@ -121,34 +138,8 @@
     <br>
     <hr>
     
-    <h2 class="categorias" id="Oculos">Oculos</h2>
-    <div class="Oculos">
-        <img src="" alt="" height="200">
-        <img src="" alt="" height="200">
-        <img src="" alt="" height="200">
-        <img src="" alt="" height="200">
-        <img src="" alt="" height="200">
-        <img src="" alt="" height="200">
-        <img src="" alt="" height="200">
-    </div>
-    <br>
-    <hr>
-
-    <h2 class="categorias" id="Utensilios">Utensílios Domesticos</h2>
-    <div class="UtensiliosDomesticos">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-        <img src="" alt="">
-    </div>
-    <br>
-    <hr>
-
-    <h2 class="categorias" id="Escola">Materiais Escolares</h2>
-    <div class="MateriaisEscolares">
+    <h2 class="categorias" id="Eletrônicos">Eletrônicos</h2>
+    <div class="Eletrônicos">
         <img src="" alt="">
         <img src="" alt="">
         <img src="" alt="">
@@ -160,8 +151,61 @@
     <br>
     <hr>
     
-    <h2 class="categorias" id="Games">Video Games</h2>
-    <div class="Games">
+    <h2 class="categorias" id="Materiais">Materiais</h2>
+    <div class="Materiais">
+        <img src="" alt="" height="200">
+        <img src="" alt="" height="200">
+        <img src="" alt="" height="200">
+        <img src="" alt="" height="200">
+        <img src="" alt="" height="200">
+        <img src="" alt="" height="200">
+        <img src="" alt="" height="200">
+    </div>
+    <br>
+    <hr>
+    
+    <h2 class="categorias" id="Roupas">Roupas</h2>
+    <div class="Roupas">
+        <img src="IMG/Adidas preto.jfif" alt="" height="200">
+        <img src="IMG/camisa infantil mine.webp" alt="" height="200">
+        <img src="IMG/Calça cargo preta.webp" alt="" height="200">
+        <img src="IMG/Nike vermelho preto.jfif" alt="" height="200">
+        <img src="IMG/camisa feminina preta.jfif" alt="" height="200">
+        <img src="IMG/sapato masculino.jpg" alt="" height="200">
+        <img src="IMG/calça jeans feminina.webp" alt="" height="200">
+    </div>
+    <br>
+    <hr>
+    
+    
+    <h2 class="categorias" id="">1</h2>
+    <div class="">
+        <img src="" alt="" height="200">
+        <img src="" alt="" height="200">
+        <img src="" alt="" height="200">
+        <img src="" alt="" height="200">
+        <img src="" alt="" height="200">
+        <img src="" alt="" height="200">
+        <img src="" alt="" height="200">
+    </div>
+    <br>
+    <hr>
+    
+    <h2 class="categorias" id="">2</h2>
+    <div class="">
+        <img src="" alt="" height="200">
+        <img src="" alt="" height="200">
+        <img src="" alt="" height="200">
+        <img src="" alt="" height="200">
+        <img src="" alt="" height="200">
+        <img src="" alt="" height="200">
+        <img src="" alt="" height="200">
+    </div>
+    <br>
+    <hr>
+
+    <h2 class="categorias" id="">3</h2>
+    <div class="">
         <img src="" alt="">
         <img src="" alt="">
         <img src="" alt="">
@@ -172,8 +216,38 @@
     </div>
     <br>
     <hr>
+
+    <h2 class="categorias" id="">4</h2>
+    <div class="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+    </div>
+    <br>
+    <hr>
+    
+    <h2 class="categorias" id="">5</h2>
+    <div class="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+        <img src="" alt="">
+    </div>
+    <br>
+    <hr/>
     
     <script src="JS/funcoes.js"></script> <!--Ligação do js no final-->
     
 </body>
+
+<footer>
+    
+</footer>
 </html>

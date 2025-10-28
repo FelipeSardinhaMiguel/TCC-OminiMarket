@@ -1,85 +1,75 @@
-.Tenis, .Camisetas, .Perfumes, .Calças, .Bijuterias, .Maquiagens, .Oculos
+body
+{
+  /*background-color: lightgray;*/
+  margin: 0;
+  padding-top: 60px;
+}
+
+/*nav bar*/
+.faixa
+{
+  position: fixed;
+  background-color: purple; /*darkred*/
+  width: 100%;
+  top: 0%; /*para pegar no topo da tela*/
+  left: 0%; /*para pegar nos lados da tela*/
+  /*z-index: 1000;*/
+
+}
+
+.fotoPerfil
+{
+  border-radius: 50%;
+}
+
+.itemBarra
 {
   display: flex;
   justify-content: space-around;
-}
-
-.abrirMenu
-{
-  font-size: 20px;
-  cursor: pointer;
-  color: white;
-  /*background-color: rgb(30, 143, 255);*/
-  background-color: goldenrod;
-  border: none;
-  padding: 14px 20px;
-}
-
-.fecharMenu
-{
-  position: absolute;
-  top: 15px;
-  right: 20px;
-  font-size: 30px;
-  color: white;
-  cursor: pointer;
-}
-
-.barra1
-{
-    /*background-color: rgb(30, 143, 255);*/
-    background-color: goldenrod;
-    height: 100%;
-    width: 0; /* começa escondido */
-    position: fixed;
-    top: 0;
-    left: 0;
-    overflow-x: hidden;
-    transition: 0.4s; /* animação suave */
-    padding-top: 60px;
-    z-index: 1000;
-}
-
-.itemBarra {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.itemBarra li {
-  margin: 10px 0;
-}
-
-.itemBarra li a {
-  display: block;
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-  padding: 12px 20px;
-  transition: 0.3s;
-}
-
-.itemBarra li a:hover {
-  background-color: #0078ff;
-}
-
-
-.subMenuItens
-{
   list-style-type: none;
 }
 
+.Produtos
+{
+  color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  transition: 0.5s;
+}
 
-/*Efeitos da submenu: Produtos*/
-.subMenu ul
+.Produtos:hover
+{
+  background-color: crimson;
+}
+
+.linksSubmenu
+{
+  color: white;
+  text-decoration: none;
+  transition: 0.5s;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.linksSubmenu:hover
+{
+  background-color: crimson;
+}
+
+.subLista
 {
   display: none;
+  list-style-type: none;
+  margin: 5px 0 0 0;
+  padding-left: 15px;
 }
 
-.subMenu.aberto ul
-{
+/*Para mostrar o submenu quado estiver "ativo"*/
+.subMenu.ativo .subLista {
   display: block;
 }
+/*=======================================*/
+
+
 
 /*Efeito de deslizar para o produto*/
 html {scroll-behavior: smooth;}
@@ -96,7 +86,61 @@ html {scroll-behavior: smooth;}
   justify-content: center;
 }
 
-body
+.pesquisa
 {
-  background-color: gray;
+  display: flex;
+  justify-content: center;
 }
+
+.Acessórios, .autoCuidado, .Eletrônicos, .Materiais, .Roupas
+{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/*Recomendações com base nas pesquisas*/
+.recomendações
+{
+  background-color: lightgray;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap; /*para resposividade*/
+  padding: 20px;
+  gap: 20px;
+}
+
+.recomendacao1, .recomendacao2, .recomendacao3, .recomendacao4
+{
+  background-color: lightslategrey;
+  border: 2px solid grey;
+  border-radius: 8%;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.imgRecomendacao
+{
+  width: 70%;
+  border-radius: 8px;
+  object-fit: cover; /*Faz com que a imagem não se deforme ao encaixar-se no meu espaço determinado (minha div) e caso precise, corta um pedaço dela*/
+}
+
+.imgRecomendacao h3
+{
+  margin: 10px 0 5px;
+  font-size: 18px;
+  color: #333;
+}
+
+.recomendações p
+{
+  font-size: 17px;
+  color: black;
+  text-align: justify;
+  word-wrap: break-word;
+  margin: 0;
+}
+/*==============================================*/

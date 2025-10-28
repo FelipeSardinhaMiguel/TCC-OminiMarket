@@ -1,0 +1,14 @@
+/*Nav bar, submenu e efeito deslizar*/
+
+/*produtos*/
+body
+{
+    background-color: gray;
+}
+
+.pdtsFav
+{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
