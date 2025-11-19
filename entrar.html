@@ -39,15 +39,21 @@
 
     <h1>Bem vindo(a) de volta!</h1>
 
-    <div class="inputs">
-        <input type="email" placeholder="Digite o seu e-mail ou CPF.">
-        <input type="password" placeholder="Digite a sua senha.">
+    <div class="divInputs">
+        <div class="informacoes">
+            <input type="email" placeholder="Digite o seu e-mail ou CPF."><br>
+            <input type="password" placeholder="Digite a sua senha."><br>
+        </div>
     </div>
 
     <button type="submit" class="enviar" onclick="entrar()">Entrar na Conta</button><br><br>
+    <hr>
 
-    <p>Ainda não tem uma conta? Crie uma agora e faça suas compras.</p>
-    <button><a href="cadastrar.html">Criar uma Conta</a></button>
+
+    <div class="criar">
+        <p>Ainda não tem uma conta? Crie uma agora e faça suas compras.</p>
+        <button onclick="window.location.href='cadastrar.html'">Criar uma Conta</button>
+    </div>
 
 </body>
 </html>

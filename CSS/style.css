@@ -1,20 +1,19 @@
 body
 {
-  /*background-color: lightgray;*/
+  background-color: goldenrod;
   margin: 0;
-  padding-top: 60px;
+  padding-top: 90px;
 }
 
 /*nav bar*/
 .faixa
 {
   position: fixed;
-  background-color: purple; /*darkred*/
+  background-color: goldenrod; /*darkred*/
   width: 100%;
   top: 0%; /*para pegar no topo da tela*/
   left: 0%; /*para pegar nos lados da tela*/
-  /*z-index: 1000;*/
-
+  z-index: 1000;
 }
 
 .fotoPerfil
@@ -31,7 +30,7 @@ body
 
 .Produtos
 {
-  color: whitesmoke;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
   text-decoration: none;
   transition: 0.5s;
@@ -39,47 +38,14 @@ body
 
 .Produtos:hover
 {
-  background-color: crimson;
+  background-color: white;
 }
-
-.linksSubmenu
-{
-  color: white;
-  text-decoration: none;
-  transition: 0.5s;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.linksSubmenu:hover
-{
-  background-color: crimson;
-}
-
-.subLista
-{
-  display: none;
-  list-style-type: none;
-  margin: 5px 0 0 0;
-  padding-left: 15px;
-}
-
-/*Para mostrar o submenu quado estiver "ativo"*/
-.subMenu.ativo .subLista {
-  display: block;
-}
-/*=======================================*/
-
-
 
 /*Efeito de deslizar para o produto*/
 html {scroll-behavior: smooth;}
+/*======================================================*/
 
-.titulo
-{
-  display: flex;
-  justify-content: center;
-}
-
+/*saudacao e barra de pesquisa*/
 .categorias
 {
   display: flex;
@@ -88,9 +54,22 @@ html {scroll-behavior: smooth;}
 
 .pesquisa
 {
+  background-color: black;
+}
+
+.saudacao
+{
   display: flex;
   justify-content: center;
+  color: goldenrod;
 }
+
+.busca, .buscar
+{
+  display: flex;
+  justify-self: center;
+}
+/*====================================================*/
 
 .Acessórios, .autoCuidado, .Eletrônicos, .Materiais, .Roupas
 {
@@ -100,19 +79,26 @@ html {scroll-behavior: smooth;}
 
 
 /*Recomendações com base nas pesquisas*/
+.tituloRelacao
+{
+  display: flex;
+  justify-content: center;
+}
+
 .recomendações
 {
-  background-color: lightgray;
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap; /*para resposividade*/
   padding: 20px;
   gap: 20px;
+  background-color: black;
+  margin: 0 100px; /*Para espaço só nas laterais (não em cima/baixo)*/
 }
 
 .recomendacao1, .recomendacao2, .recomendacao3, .recomendacao4
 {
-  background-color: lightslategrey;
+  background-color: white;
   border: 2px solid grey;
   border-radius: 8%;
   width: 200px;
