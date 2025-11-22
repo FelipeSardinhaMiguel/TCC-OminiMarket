@@ -9,7 +9,7 @@ body
 .faixa
 {
   position: fixed;
-  background-color: goldenrod; /*darkred*/
+  background-color: /*goldenrod;*/ /*darkred;*/ lightgray;
   width: 100%;
   top: 0%; /*para pegar no topo da tela*/
   left: 0%; /*para pegar nos lados da tela*/
@@ -71,7 +71,7 @@ html {scroll-behavior: smooth;}
 }
 /*====================================================*/
 
-.Acessórios, .autoCuidado, .Eletrônicos, .Materiais, .Roupas
+.Acessórios, .autoCuidado, .Eletrônicos, .Moveis, .Roupas
 {
   display: flex;
   justify-content: space-around;
@@ -130,3 +130,7 @@ html {scroll-behavior: smooth;}
   margin: 0;
 }
 /*==============================================*/
+.imgProduto
+{
+  border-radius: 70px;
+}
