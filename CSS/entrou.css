@@ -32,13 +32,18 @@ input
     text-align: center;
 }
 
-.enviar
+.enviarBtn
 {
     display: block;
     margin: 0 auto;
+
+    background-color: black;
+    border-color: goldenrod;
+    color: goldenrod;
+    border-radius: 20px;
+    border-width: 3px;
     width: 300px;
-    height: 30px;
-    text-align: center;
+    height: 40px;
 }
 
 .criar
@@ -52,6 +57,11 @@ input
 
 .criar button
 {
+    background-color: black;
+    border-color: goldenrod;
+    color: goldenrod;
+    border-radius: 20px;
+    border-width: 3px;
     width: 150px;
-    height: 25px;
+    height: 40px;
 }

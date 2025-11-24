@@ -1,0 +1,41 @@
+body
+{
+    background-color: goldenrod;
+}
+
+.faixa
+{
+  position: fixed;
+  background-color: /*goldenrod;*/ /*darkred;*/ whitesmoke;
+  width: 100%;
+  top: 0%; /*para pegar no topo da tela*/
+  left: 0%; /*para pegar nos lados da tela*/
+  z-index: 1000;
+}
+
+.itemBarra
+{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+.linksBarra
+{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.linksBarra:hover
+{
+  /*color: black;*/
+  background-color: goldenrod;
+  border-radius: 10px;
+}
+
+.perfilBtn
+{
+    background-color: whitesmoke;
+}
