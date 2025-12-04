@@ -1,8 +1,22 @@
+:root {
+  --gold: #D4AF37; /*background*/
+  --gold-light: #F4E4B7; /*background itens avaliações*/
+  --gold-dark: #B8941F; /*Foto de perfil dos comentaristas*/
+  --black: #000000; /*Footer, "bem vindos", botão de cadastro e login*/
+  --black-light: #1A1A1A;
+  --white: #FFFFFF; /*links footer, barra de pesquisa preços dos produtos*/
+  --gray-light: #F5F5F5;
+  --gray: #CCCCCC; /*estrelas vazia das avaliações*/
+  --transition: all 0.3s ease; /*efeitos de subir*/
+}
+
+
+
 body
 {
   background-color: goldenrod;
   margin: 0;
-  padding-top: 90px;
+  padding-top: 70px;
 }
 
 /*nav bar*/
@@ -11,9 +25,13 @@ body
   position: fixed;
   background-color: /*goldenrod;*/ /*darkred;*/ whitesmoke;
   width: 100%;
+  height: 70px;
   top: 0%; /*para pegar no topo da tela*/
   left: 0%; /*para pegar nos lados da tela*/
   z-index: 1000;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
 }
 
 .fotoPerfil
@@ -29,8 +47,12 @@ body
 .itemBarra
 {
   display: flex;
+  align-items: center;
   justify-content: space-around;
   list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .linksBarra
@@ -73,19 +95,31 @@ html {scroll-behavior: smooth;}
 .pesquisa
 {
   background-color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.saudacao
-{
-  display: flex;
-  justify-content: center;
+.saudacao {
   color: goldenrod;
+  margin: 10px 0;
 }
 
-.busca, .buscar
-{
+.barraPesquisa {
   display: flex;
-  justify-self: center;
+}
+
+.busca {
+  width: 300px;
+  height: 35px;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.buscar {
+  height: 35px;
+  padding: 0 15px;
+  cursor: pointer;
 }
 /*====================================================*/
 

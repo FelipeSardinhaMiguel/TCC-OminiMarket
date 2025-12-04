@@ -1,17 +1,141 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>OmniMarket - Premium E-Commerce</title>
+    <link rel="stylesheet" href="CSS/styleDois.css">
+    <link rel="shoorcut icon" href="IMG/logo.jpeg">
+    <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+</head>
+  <body>
+    <header class="header">
+      <div class="header-container">
+        <div class="user-info">
+          <img class="logoNavbar" src="img/logo.jpeg" alt="" width="50"> <!--logo do omnimarket-->
+          <div onclick="window.location.href='perfil.html'" class="logo-icon"><img class="imgPerfil" src="IMG/Icone.jfif" alt="" width="50"></div>
+          <div class="user-details">
+            <div class="user-name">Seu Nome</div>
+            <div class="user-address">Endereço em uso</div>
+          </div>
+        </div>
+        
+        <nav class="nav-menu">
+          <a onclick="window.location.href='Produtos/Roupas.html'" class="nav-link">Roupas</a>
+          <a onclick="window.location.href='Produtos/Acessórios.html'" class="nav-link">Acessórios</a>
+          <a onclick="window.location.href='Produtos/Eletronicos.html'" class="nav-link">Eletrônicos</a>
+          <a onclick="window.location.href='Produtos/Moveis.html'" class="nav-link">Móveis</a>
+          <a onclick="window.location.href='Produtos/Comidas.html'" class="nav-link">Comidas</a>
+          <a onclick="window.location.href='Produtos/Veiculos.html'" class="nav-link">Veículos</a>
+          <a href="#" class="nav-link">Outros</a>
+        </nav>
+
+        <div class="auth-buttons">
+          <button onclick="window.location.href='entrar.html'" class="btn-login">Login</button>
+          <button onclick="window.location.href='cadastrar.html'" class="btn-register">Cadastrar</button>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="hero-container">
+        <h1 class="hero-title">Bem vindo ao OmniMarket</h1>
+        <div class="search-bar">
+          <input type="text" id="searchInput" class="search-input" placeholder="Procure um item">
+          <button id="searchBtn" class="search-button">Procurar</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="products-section">
+      <div class="container">
+        <h2 class="section-title">Produtos Recomendados</h2>
+        <div class="products-grid" id="productsGrid">
+            <!--Aqui fica as imagens que estão no js-->
+        </div>
+      </div>
+    </section>
+
+    <section class="reviews-section">
+      <div class="container">
+        <h2 class="section-title">Itens Melhor Avaliados</h2>
+        <div class="reviews-grid" id="reviewsGrid">
+          <!--Aqui fica as avaliações que estão no js-->
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <div class="footer-logo"><img src="img/logo.jpeg" alt="" class="logoBaixo" width="80"></div>
+          <div class="footer-brand-name">OMNIMARKET</div>
+          <div class="social-links">
+            <a href="#" class="social-icon">X</a>
+            <a href="#" class="social-icon">IG</a>
+            <a href="#" class="social-icon">YT</a>
+            <a href="#" class="social-icon">IN</a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-column">
+            <h3 class="footer-heading">Use Cases</h3>
+            <a href="#" class="footer-link">UI design</a>
+            <a href="#" class="footer-link">UX design</a>
+            <a href="#" class="footer-link">Wireframing</a>
+            <a href="#" class="footer-link">Diagramming</a>
+            <a href="#" class="footer-link">Brainstorming</a>
+            <a href="#" class="footer-link">Online whiteboard</a>
+            <a href="#" class="footer-link">Team collaboration</a>
+          </div>
+
+          <div class="footer-column">
+            <h3 class="footer-heading">Explore</h3>
+            <a href="#" class="footer-link">Design</a>
+            <a href="#" class="footer-link">Prototyping</a>
+            <a href="#" class="footer-link">Development features</a>
+            <a href="#" class="footer-link">Design systems</a>
+            <a href="#" class="footer-link">Collaboration features</a>
+            <a href="#" class="footer-link">Design process</a>
+            <a href="#" class="footer-link">FigJam</a>
+          </div>
+
+          <div class="footer-column">
+            <h3 class="footer-heading">Resources</h3>
+            <a href="#" class="footer-link">Blog</a>
+            <a href="#" class="footer-link">Best practices</a>
+            <a href="#" class="footer-link">Colors</a>
+            <a href="#" class="footer-link">Color wheel</a>
+            <a href="#" class="footer-link">Support</a>
+            <a href="#" class="footer-link">Developers</a>
+            <a href="#" class="footer-link">Resource library</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="JS/funcoes.js"></script>
+  </body>
+</html>
+
+
+<!--<!DOCTYPE html>
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pagina Inicial</title>
     <link rel="stylesheet" href="CSS/style.css">
-    <link rel="shorcut icon" href="IMG/logo tcc.jpeg">
+    <link rel="shorcut icon" href="IMG/Logo TCC.jpeg">
     
 </head>
 <body>
     
     <nav class="faixa">
         <ul class="itemBarra">
+
             <div class="fotoLinkPerfil">
                 <li><a href="perfil.html"><img class="fotoPerfil" src="IMG/Icone.jfif" alt="" height="30"></a></li>
                 <li><a class="linksBarra" href="perfil.html">Perfil</a></li>
@@ -21,7 +145,7 @@
 
             <li><a class="linksBarra" href="">Comidas</a></li>
 
-            <li><a class="linksBarra" href="">Eletrônicos</a></li>
+            <li><a class="linksBarra" href="eletronicos.html">Eletrônicos</a></li>
 
             <li><a class="linksBarra" href="">Moveis</a></li>
             
@@ -36,43 +160,45 @@
 
     
     <div class="pesquisa">
-        <br>
         <h1 class="saudacao">Bem Vindo ao OmniMarket!</h1>
-        <br>
-        <input class="busca" type="text" name="" id="" placeholder="Procure produtos ou vendedores">
-        <button class="buscar">Buscar</button>
+
+        <div class="barraPesquisa">
+            <input class="busca" type="text" name="" id="" placeholder="Procure por produtos ou vendedores">
+            <button class="buscar">Buscar</button>
+        </div>
+        
     </div>
 
     <h1 class="tituloRelacao">Relacionados as suas buscas recentes.</h1>
     <div class="recomendações">
         <div class="recomendacao1"><img class="imgRecomendacao" src="IMG/cadeira gamer fox.webp" alt="" width="150">
-        <h3>Espada de grama</h3>
-        <p>Descrição: Uma espada feita inteiramente de grama amaldiçoada.</p></div>
+        <h3>Nome do Produto</h3>
+        <p>Descrição: Texto para descrever o produto.</p></div>
         
         <div class="recomendacao2"><img  class="imgRecomendacao" src="IMG/colar colorido.webp" alt="" width="150">
-        <h3>Espada de grama</h3>
-        <p>Descrição: Uma espada feita inteiramente de grama amaldiçoada.</p></div>
+        <h3>Nome do Produto</h3>
+        <p>Descrição: Texto para descrever o produto.</p></div>
         
         <div class="recomendacao3"><img  class="imgRecomendacao" src="IMG/ampulheta.webp" alt="" width="150">
-        <h3>Espada de grama</h3>
-        <p>Descrição: Uma espada feita inteiramente de grama amaldiçoada.</p></div>
+        <h3>Nome do Produto</h3>
+        <p>Descrição: Texto para descrever o produto.</p></div>
 
         <div class="recomendacao4"><img  class="imgRecomendacao" src="IMG/xadrez.jfif" alt="" width="150">
-        <h3>Espada de grama</h3>
-        <p>Descrição: Uma espada feita inteiramente de grama amaldiçoada.</p></div>
+        <h3>Nome do Produto</h3>
+        <p>Descrição: Texto para descrever o produto.</p></div>
             
     </div>
     <hr>
         
     <h2 class="categorias" id="Acessórios">Acessórios</h2>
     <div class="Acessórios">
-        <img class="imgProduto" src="IMG/brinco azul.jpg" alt="" height="200">
-        <img class="imgProduto" src="IMG/brinco comprido verde.jpg" alt="" height="200">
-        <img class="imgProduto" src="IMG/brinco coruja.jpeg" alt="" height="200">
-        <img class="imgProduto" src="IMG/brinco tres coracoes.webp" alt="" height="200">
-        <img class="imgProduto" src="IMG/colar colorido.webp" alt="" height="200">
-        <img class="imgProduto" src="IMG/colar coracao azul.avif" alt="" height="200">
-        <img class="imgProduto" src="IMG/colar coracao colorido.jpg" alt="" height="200">
+        <img class="imgProduto" src="IMG/brinco azul.jpg" alt="" height="200" width="200">
+        <img class="imgProduto" src="IMG/brinco comprido verde.jpg" alt="" height="200" width="200">
+        <img class="imgProduto" src="IMG/brinco coruja.jpeg" alt="" height="200" width="200">
+        <img class="imgProduto" src="IMG/brinco tres coracoes.webp" alt="" height="200" width="200">
+        <img class="imgProduto" src="IMG/colar colorido.webp" alt="" height="200" width="200">
+        <img class="imgProduto" src="IMG/colar coracao azul.avif" alt="" height="200" width="200">
+        <img class="imgProduto" src="IMG/colar coracao colorido.jpg" alt="" height="200" width="200">
     </div>
     <br>
     <hr>
@@ -80,13 +206,13 @@
     <h2 class="categorias" id="Auto Cuidado">Auto Cuidado</h2>
     <div class="autoCuidado">
 
-        <img class="imgProduto" src="IMG/base em po.jfif" alt="" height="200">
-        <img class="imgProduto" src="IMG/base liquida.webp" alt="" height="200">
-        <img class="imgProduto" src="IMG/batom avon rosa.jpg" alt="" height="200">
-        <img class="imgProduto" src="IMG/deliniador fino.png" alt="" height="200">
-        <img class="imgProduto" src="IMG/gloss.jpg" alt="" height="200">
-        <img class="imgProduto" src="IMG/lapis de olho.png" alt="" height="200">
-        <img class="imgProduto" src="IMG/po compacto.jpg" alt="" height="200">
+        <img class="imgProduto" src="IMG/base em po.jfif" alt="" height="200" width="200">
+        <img class="imgProduto" src="IMG/base liquida.webp" alt="" height="200" width="200">
+        <img class="imgProduto" src="IMG/batom avon rosa.jpg" alt="" height="200" width="200">
+        <img class="imgProduto" src="IMG/deliniador fino.png" alt="" height="200" width="200">
+        <img class="imgProduto" src="IMG/gloss.jpg" alt="" height="200" width="200">
+        <img class="imgProduto" src="IMG/lapis de olho.png" alt="" height="200" width="200">
+        <img class="imgProduto" src="IMG/po compacto.jpg" alt="" height="200" width="200">
     </div>
     <br>
     <hr>
@@ -196,11 +322,7 @@
     <br>
     <hr/>
     
-    <script src="JS/funcoes.js"></script> <!--Ligação do js no final-->
+    <script src="JS/funcoes.js"></script>
     
 </body>
-
-<footer>
-    
-</footer>
-</html>
+</html>-->

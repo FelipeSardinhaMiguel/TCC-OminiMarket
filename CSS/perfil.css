@@ -1,6 +1,7 @@
 body
 {
     background-color: goldenrod;
+    margin: 0%;
 }
 
 .faixa
@@ -8,16 +9,24 @@ body
   position: fixed;
   background-color: /*goldenrod;*/ /*darkred;*/ whitesmoke;
   width: 100%;
+  height: 70px; /*altura da faixa*/
   top: 0%; /*para pegar no topo da tela*/
   left: 0%; /*para pegar nos lados da tela*/
   z-index: 1000;
+  display: flex;/**/
+  align-items: center;/**/
+  padding: 0 20px;/**/
 }
 
 .itemBarra
 {
   display: flex;
+  /**/align-items: center;
   justify-content: space-around;
+  width: 100%;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .linksBarra
@@ -37,5 +46,52 @@ body
 
 .perfilBtn
 {
-    background-color: whitesmoke;
+    background-color: black;
+    border-color: goldenrod;
+    color: goldenrod;
+    border-radius: 20px;
+    border-width: 3px;
+    width: 100px;
+    height: 33px;
+}
+/*===============================================================*/
+
+.faixada
+{
+  margin-top: 70px; /* evita ficar escondida pela navbar fixa */
+  height: 300px;
+  width: 100%;
+  background-image: url(../IMG/paisagens-bonitas.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: aqua;
+  position: relative; /* necessário para posicionar a foto */
+}
+
+.faixada img
+{
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
+}
+
+.fotoPerfil
+{
+  height: 200px;
+  width: 200px;
+  background-color: purple;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -50px;
+  left: 20px;
+}
+
+.fotoPerfil img
+{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
 }

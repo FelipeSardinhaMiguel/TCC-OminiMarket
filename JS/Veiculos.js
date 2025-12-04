@@ -1,45 +1,87 @@
 const products = [
   {
     id: 1,
-    name: 'Impressora',
-    price: 'R$ 349,99',
-    description: 'Impressora da marca HG. Impressões em alta qualidade',
-    image: '../IMG/impressora.jfif'
+    name: '',
+    price: 'R$ 00,00',
+    description: '',
+    image: ''
   },
   {
     id: 2,
-    name: 'Ampulheta',
-    price: 'R$ 74,99',
-    description: 'Modelo clássico de uma ampulheta de areia',
-    image: '../IMG/ampulheta.webp'
+    name: '',
+    price: 'R$ 00,00',
+    description: '',
+    image: ''
   },
   {
     id: 3,
-    name: 'Tabuleiro de Xadrez',
-    price: 'R$ 34,99',
-    description: 'Tabuleiro de xadrex com peças de madeira maciça',
-    image: '../IMG/xadrez.jfif'
+    name: '',
+    price: 'R$ 00,00',
+    description: '',
+    image: ''
   },
   {
     id: 4,
-    name: 'Colar com Joias Coloridas',
-    price: 'R$ 129,99',
-    description: 'Colar feminino com joias variadas e coloridas',
-    image: '../IMG/colar colorido.webp'
+    name: '',
+    price: 'R$ 00,00',
+    description: '',
+    image: ''
   },
   {
     id: 5,
-    name: 'Calça Cargo preta',
-    price: 'R$ 169,99',
-    description: 'Calça unissex modelo cargo',
-    image: '../IMG/Calça cargo preta.webp'
+    name: '',
+    price: 'R$ 00,00',
+    description: '',
+    image: ''
   },
   {
     id: 6,
-    name: 'Pendrive Kingston',
-    price: 'R$ 27,99',
-    description: 'Pendrive dourado de 16GB',
-    image: '../IMG/pendrive kingston 64.jfif'
+    name: '',
+    price: 'R$ 00,00',
+    description: '',
+    image: ''
+  },
+  {
+    id: 7,
+    name: '',
+    price: 'R$ 00,00',
+    description: '',
+    image: ''
+  },
+  {
+    id: 8,
+    name: '',
+    price: 'R$ 00,00',
+    description: '',
+    image: ''
+  },
+  {
+    id: 9,
+    name: '',
+    price: 'R$ 00,00',
+    description: '',
+    image: ''
+  },
+  {
+    id: 10,
+    name: '',
+    price: 'R$ 00,00',
+    description: '',
+    image: ''
+  },
+  {
+    id: 11,
+    name: '',
+    price: 'R$ 00,00',
+    description: '',
+    image: ''
+  },
+  {
+    id: 12,
+    name: '',
+    price: 'R$ 00,00',
+    description: '',
+    image: ''
   }
 ];
 

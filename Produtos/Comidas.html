@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comidas</title>
+    <link rel="stylesheet" href="../CSS/produtos.css">
+    <link rel="shoorcut icon" href="../IMG/logo.jpeg">
+    <meta property="og:image" content="https://bolt.new/static/og_default.png">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://bolt.new/static/og_default.png">
+</head>
+<body>
+    <header class="header">
+          <div class="header-container">
+            <div class="user-info">
+              <img class="logoNavbar" src="../IMG/logo.jpeg" alt="" width="50"> <!--logo do omnimarket-->
+              <div onclick="window.location.href='perfil.html'" class="logo-icon"><img class="imgPerfil" src="../IMG/Icone.jfif" alt="" width="50"></div>
+              <div class="user-details">
+                <div class="user-name">Seu Nome</div>
+                <div class="user-address">Endereço em uso</div>
+              </div>
+            </div>
+            
+            <nav class="nav-menu">
+              <a onclick="window.location.href='../index.html'" class="nav-link">Página Inical</a>
+              <a onclick="window.location.href='Roupas.html'" class="nav-link">Roupas</a>
+              <a onclick="window.location.href='Acessórios.html'" class="nav-link">Acessórios</a>
+              <a onclick="window.location.href='Eletronicos.html'" class="nav-link">Eletrônicos</a>
+              <a onclick="window.location.href='Moveis.html'" class="nav-link">Móveis</a>
+              <a onclick="window.location.href='Veiculos.html'" class="nav-link">Veículos</a>
+              <a href="#" class="nav-link">Outros</a>
+            </nav>
+    
+            <div class="auth-buttons">
+              <button onclick="window.location.href='../entrar.html'" class="btn-login">Login</button>
+              <button onclick="window.location.href='../cadastrar.html'" class="btn-register">Cadastrar</button>
+            </div>
+          </div>
+        </header>
+        <section class="hero">
+          <div class="hero-container">
+            <h1 class="hero-title">Comidas do OmniMarket</h1>
+            <div class="search-bar">
+              <input type="text" id="searchInput" class="search-input" placeholder="Procure um item">
+              <button id="searchBtn" class="search-button">Procurar</button>
+            </div>
+          </div>
+        </section>
+    
+        <section class="products-section">
+          <div class="container">
+            <h2 class="section-title">Nossas Comidas</h2>
+            <div class="products-grid" id="productsGrid">
+                <!--Aqui fica as imagens que estão no js-->
+            </div>
+          </div>
+        </section>
+    
+        <!--<section class="reviews-section">
+          <div class="container">
+            <h2 class="section-title">Itens Melhor Avaliados</h2>
+            <div class="reviews-grid" id="reviewsGrid">
+              Aqui fica as avaliações que estão no js
+            </div>
+          </div>
+        </section>-->
+    
+        <footer class="footer">
+          <div class="footer-container">
+            <div class="footer-brand">
+              <div class="footer-logo"><img src="../IMG/logo.jpeg" alt="" class="logoBaixo" width="80"></div>
+              <div class="footer-brand-name">OMNIMARKET</div>
+              <div class="social-links">
+                <a href="#" class="social-icon">X</a>
+                <a href="#" class="social-icon">IG</a>
+                <a href="#" class="social-icon">YT</a>
+                <a href="#" class="social-icon">IN</a>
+              </div>
+            </div>
+    
+            <div class="footer-links">
+              <div class="footer-column">
+                <h3 class="footer-heading">Use Cases</h3>
+                <a href="#" class="footer-link">UI design</a>
+                <a href="#" class="footer-link">UX design</a>
+                <a href="#" class="footer-link">Wireframing</a>
+                <a href="#" class="footer-link">Diagramming</a>
+                <a href="#" class="footer-link">Brainstorming</a>
+                <a href="#" class="footer-link">Online whiteboard</a>
+                <a href="#" class="footer-link">Team collaboration</a>
+              </div>
+    
+              <div class="footer-column">
+                <h3 class="footer-heading">Explore</h3>
+                <a href="#" class="footer-link">Design</a>
+                <a href="#" class="footer-link">Prototyping</a>
+                <a href="#" class="footer-link">Development features</a>
+                <a href="#" class="footer-link">Design systems</a>
+                <a href="#" class="footer-link">Collaboration features</a>
+                <a href="#" class="footer-link">Design process</a>
+                <a href="#" class="footer-link">FigJam</a>
+              </div>
+    
+              <div class="footer-column">
+                <h3 class="footer-heading">Resources</h3>
+                <a href="#" class="footer-link">Blog</a>
+                <a href="#" class="footer-link">Best practices</a>
+                <a href="#" class="footer-link">Colors</a>
+                <a href="#" class="footer-link">Color wheel</a>
+                <a href="#" class="footer-link">Support</a>
+                <a href="#" class="footer-link">Developers</a>
+                <a href="#" class="footer-link">Resource library</a>
+              </div>
+            </div>
+          </div>
+        </footer>
+
+    <script src="../JS/Comidas.js"></script>
+</body>
+</html>

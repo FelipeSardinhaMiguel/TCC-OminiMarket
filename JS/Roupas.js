@@ -1,45 +1,106 @@
+/*document.addEventListener("DOMContentLoaded", () => {
+  const subMenus = document.querySelectorAll(".subMenu");
+
+  subMenus.forEach((menu) => {
+    const botao = menu.querySelector(".Produtos");
+    botao.addEventListener("click", (e) => {
+      e.preventDefault(); // evita que o link recarregue a página
+      menu.classList.toggle("ativo"); // alterna entre mostrar/esconder
+
+      // opcional: fecha outros submenus quando abrir um
+      subMenus.forEach((outro) => {
+        if (outro !== menu) {
+          outro.classList.remove("ativo");
+        }
+      });
+    });
+  });
+});*/
+
 const products = [
   {
     id: 1,
-    name: 'Impressora',
-    price: 'R$ 349,99',
-    description: 'Impressora da marca HG. Impressões em alta qualidade',
-    image: '../IMG/impressora.jfif'
+    name: 'Tenis Adidas Preto',
+    price: 'R$ 209,99',
+    description: 'Tênis preto da Adidas para passear',
+    image: '../IMG/Adidas preto.jfif'
   },
   {
     id: 2,
-    name: 'Ampulheta',
-    price: 'R$ 74,99',
-    description: 'Modelo clássico de uma ampulheta de areia',
-    image: '../IMG/ampulheta.webp'
+    name: '',
+    price: 'R$ ,',
+    description: '',
+    image: ''
   },
   {
     id: 3,
-    name: 'Tabuleiro de Xadrez',
-    price: 'R$ 34,99',
-    description: 'Tabuleiro de xadrex com peças de madeira maciça',
-    image: '../IMG/xadrez.jfif'
+    name: 'Calça Cargo Preta',
+    price: 'R$ 54,99',
+    description: 'Calça modelo cargo preta unissex',
+    image: '../IMG/Calça cargo preta.webp'
   },
   {
     id: 4,
-    name: 'Colar com Joias Coloridas',
+    name: 'Calça Jeans Feminina',
     price: 'R$ 129,99',
-    description: 'Colar feminino com joias variadas e coloridas',
-    image: '../IMG/colar colorido.webp'
+    description: 'Calça jeans feminina tamanho 38',
+    image: '../IMG/calça jeans feminina.webp'
   },
   {
     id: 5,
     name: 'Calça Cargo preta',
     price: 'R$ 169,99',
     description: 'Calça unissex modelo cargo',
-    image: '../IMG/Calça cargo preta.webp'
+    image: '../IMG/camisa feminina branca.jpg'
   },
   {
     id: 6,
-    name: 'Pendrive Kingston',
-    price: 'R$ 27,99',
+    name: 'Camiseta Feminina Preta',
+    price: 'R$ 107,99',
     description: 'Pendrive dourado de 16GB',
-    image: '../IMG/pendrive kingston 64.jfif'
+    image: '../IMG/camisa feminina preta.jfif'
+  },
+  {
+    id: 7,
+    name: '',
+    price: 'R$ ,',
+    description: '',
+    image: ''
+  },
+  {
+    id: 8,
+    name: '',
+    price: 'R$ ,',
+    description: '',
+    image: ''
+  },
+  {
+    id: 9,
+    name: '',
+    price: 'R$ ,',
+    description: '',
+    image: ''
+  },
+  {
+    id: 10,
+    name: '',
+    price: 'R$ ,',
+    description: '',
+    image: ''
+  },
+  {
+    id: 11,
+    name: '',
+    price: 'R$ ,',
+    description: '',
+    image: ''
+  },
+  {
+    id: 12,
+    name: '',
+    price: 'R$ ,',
+    description: '',
+    image: ''
   }
 ];
 
