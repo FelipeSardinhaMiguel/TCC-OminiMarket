@@ -4,84 +4,84 @@ const products = [
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/'
   },
   {
     id: 2,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/'
   },
   {
     id: 3,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/'
   },
   {
     id: 4,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/'
   },
   {
     id: 5,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/'
   },
   {
     id: 6,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/'
   },
   {
     id: 7,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/'
   },
   {
     id: 8,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/'
   },
   {
     id: 9,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/'
   },
   {
     id: 10,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/'
   },
   {
     id: 11,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/'
   },
   {
     id: 12,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/'
   }
 ];
 

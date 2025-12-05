@@ -1,12 +1,30 @@
+:root {
+  --gold: #D4AF37; /*background*/
+  --gold-light: #F4E4B7; /*background itens avaliações*/
+  --gold-dark: #B8941F; /*Foto de perfil dos comentaristas*/
+  --black: #000000; /*Footer, "bem vindos", botão de cadastro e login*/
+  --black-light: #1A1A1A;
+  --white: #FFFFFF; /*links footer, barra de pesquisa preços dos produtos*/
+  --gray-light: #F5F5F5;
+  --gray: #CCCCCC; /*estrelas vazia das avaliações*/
+  --transition: all 0.3s ease; /*efeitos de subir*/
+}
+
 body
 {
-    background-color: goldenrod;
+    background-image: url(../IMG/logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center, center;
+    background-attachment: fixed;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 
 h1
 {
     display: flex;
     justify-content: center;
+    color: var(--white);
 }
 
 .divInputs
@@ -23,30 +41,52 @@ h1
     gap: 10px;
     margin-top: 20px;
     width: 350px;
-    background-color: black;
+    background-color: var(--gray);
 }
 
 input
 {
-    width: 300px;
+    /*width: 300px;
     height: 50px;
     font-size: 15px;
     text-align: center;
-    border-radius: 50px;
+    border-radius: 50px;*/
+    flex: 1;
+    padding: 1rem 1.5rem;
+    border: 2px solid var(--black);
+    border-radius: 8px;
+    font-size: 1rem;
+    background-color: var(--white);
+    transition: var(--transition);
+}
+
+input:focus {
+  outline: none;
+  border-color: var(--gray-light);
+  box-shadow: 0 0 0 3px /*rgba(212, 175, 55, 0.795)*/ rgba(0, 0, 0, 0.600);
 }
 
 .enviarBtn
 {
     display: block;
     margin: 0 auto;
+    padding: 0.6rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: 0.9rem;
+    color: var(--black);
+    border: 2px solid var(--black);
+    background-color: var(--gray-light);
+}
 
-    background-color: black;
-    border-color: goldenrod;
-    color: goldenrod;
-    border-radius: 20px;
-    border-width: 3px;
-    width: 300px;
-    height: 40px;
+.enviarBtn:hover {
+  background-color: var(--black);
+  color: var(--gold);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
 .criar
@@ -56,6 +96,7 @@ input
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
+    color: var(--gray);
 }
 
 .criar button
@@ -67,4 +108,14 @@ input
     border-width: 3px;
     width: 150px;
     height: 40px;
+    background-color: var(--black);
+    color: var(--gold);
+    border: 2px solid var(--black);
+}
+
+.criar button:hover {
+    transition: var(--transition);
+    background-color: var(--black-light);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px /*rgba(0, 0, 0, 0.3)*/rgba(212, 175, 55, 0.795);
 }

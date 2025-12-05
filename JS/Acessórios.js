@@ -4,84 +4,84 @@ const products = [
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/brinco azul.jpg'
   },
   {
     id: 2,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/brinco comprido verde.jpg'
   },
   {
     id: 3,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/brinco coruja.jpeg'
   },
   {
     id: 4,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/brinco tres coracoes.webp'
   },
   {
     id: 5,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/colar colorido.webp'
   },
   {
     id: 6,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/colar coracao colorido.jpg'
   },
   {
     id: 7,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/'
   },
   {
     id: 8,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/'
   },
   {
     id: 9,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/'
   },
   {
     id: 10,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/'
   },
   {
     id: 11,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/'
   },
   {
     id: 12,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/'
   }
 ];
 

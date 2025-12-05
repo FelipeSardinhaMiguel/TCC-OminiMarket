@@ -4,84 +4,84 @@ const products = [
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/alexia bola.jfif'
   },
   {
     id: 2,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/caixa de som.webp'
   },
   {
     id: 3,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/camera de segurança.jfif'
   },
   {
     id: 4,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/camera fotografica.jpg'
   },
   {
     id: 5,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/celular xaiomi.webp'
   },
   {
     id: 6,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/impressora.jfif'
   },
   {
     id: 7,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/mesa digitalizadora.jpg'
   },
   {
     id: 8,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/notebook vaio.jpg'
   },
   {
     id: 9,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/mouse gamer branco.jfif'
   },
   {
     id: 10,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/pendrive kingston 64.jfif'
   },
   {
     id: 11,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/ps4.jfif'
   },
   {
     id: 12,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/'
   }
 ];
 
