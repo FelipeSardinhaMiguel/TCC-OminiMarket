@@ -109,6 +109,7 @@ body {
   transition: var(--transition);
   position: relative;
   padding: 0.25rem 0;
+  cursor: pointer;
 }
 
 .nav-link::after {
@@ -123,7 +124,7 @@ body {
 }
 
 .nav-link:hover {
-  color: var(--black);
+  color: var(--white);
   transform: translateY(-2px);
 }
 
@@ -173,9 +174,15 @@ body {
 }
 
 .hero {
-  background: linear-gradient(135deg, var(--black) 0%, var(--black-light) 100%);
+  background: linear-gradient(135deg, var(--gold-dark) 0%/*, var(--gold-light) 100%*/);
   padding: 4rem 2rem;
   text-align: center;
+
+  background-image: url(../IMG/logo.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center, center;
+  background-attachment: fixed;
 }
 
 .hero-container {
@@ -184,7 +191,7 @@ body {
 }
 
 .hero-title {
-  color: var(--gold);
+  color: var(--gold-light);
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 2rem;
@@ -201,7 +208,7 @@ body {
 .search-input {
   flex: 1;
   padding: 1rem 1.5rem;
-  border: 2px solid var(--gold);
+  border: 2px solid var(--black);
   border-radius: 8px;
   font-size: 1rem;
   background-color: var(--white);
@@ -210,15 +217,16 @@ body {
 
 .search-input:focus {
   outline: none;
-  border-color: var(--gold-light);
-  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.2);
+  border-color: /*var(--black-light);*/ rgba(212, 175, 55, 0.795);
+  box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.795);
 }
 
 .search-button {
   padding: 1rem 2.5rem;
-  background-color: var(--gold);
+  background-color: var(--gold-light);
   color: var(--black);
   border: none;
+  /*border-color: var(--black-light);*/
   border-radius: 8px;
   font-weight: 600;
   font-size: 1rem;
@@ -227,9 +235,10 @@ body {
 }
 
 .search-button:hover {
-  background-color: var(--gold-light);
+  background-color: var(--black);
+  color: var(--gold-dark);
   transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(212, 175, 55, 0.4);
+  box-shadow: 0 4px 12px /*rgba(212, 175, 55, 0.4)*/ var(--black-light);
 }
 
 .container {
@@ -244,18 +253,26 @@ body {
 }
 
 .products-section {
-  background-color: var(--gold);
+  background-color: var(--black);
 }
 
 .reviews-section {
-  background-color: var(--gold-light);
+  background-color: var(--black-light);
+}
+
+.section-title1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2.5rem;
+  color: var(--gold-dark);
+  box-shadow: var(--gold-light);
 }
 
 .section-title {
   font-size: 2rem;
   font-weight: 700;
   margin-bottom: 2.5rem;
-  color: var(--black);
+  color: var(--gold-light);
 }
 
 .products-grid {
@@ -415,8 +432,8 @@ body {
 }
 
 .footer {
-  background-color: var(--black);
-  color: var(--white);
+  background-color: var(--gold-dark);
+  color: var(--black-light);
   padding: 3rem 0 2rem;
 }
 
@@ -438,7 +455,7 @@ body {
 .footer-logo {
   width: 80px;
   height: 80px;
-  /*background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);*/
+  background: linear-gradient(135deg, var(--gold) 0%, var(--gold-dark) 100%);
   color: var(--black);
   border-radius: 10px;
   display: flex;
@@ -448,7 +465,7 @@ body {
   font-weight: 900;
   letter-spacing: -2px;
   font-style: italic;
-  box-shadow: 0 4px 12px rgba(212, 175, 55, 1);
+  box-shadow: 0 4px 12px /*rgba(212, 175, 55, 1)*/ var(--white);
 }
 
 .logoBaixo
@@ -459,7 +476,7 @@ body {
 .footer-brand-name {
   font-size: 1.5rem;
   font-weight: 700;
-  color: var(--gold);
+  color: var(--black);
   letter-spacing: 2px;
 }
 
@@ -469,22 +486,23 @@ body {
 }
 
 .social-icon {
+  background-color: var(--white);
   width: 40px;
   height: 40px;
-  border: 2px solid var(--gold);
+  border: 2px solid var(--black-light);
   border-radius: 8px;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--gold);
+  color: var(--black);
   text-decoration: none;
   font-weight: 600;
   transition: var(--transition);
 }
 
 .social-icon:hover {
-  background-color: var(--gold);
-  color: var(--black);
+  background-color: var(--gray-light);
+  color: var(--gold-light);
   transform: translateY(-3px);
 }
 
@@ -501,7 +519,7 @@ body {
 }
 
 .footer-heading {
-  color: var(--gold);
+  color: var(--black);
   font-size: 1.1rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
@@ -516,7 +534,7 @@ body {
 }
 
 .footer-link:hover {
-  color: var(--gold);
+  color: var(--gray-light);
   opacity: 1;
   padding-left: 5px;
 }

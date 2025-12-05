@@ -28,9 +28,9 @@ const products = [
   {
     id: 2,
     name: '',
-    price: 'R$ ,',
+    price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/All Stars cano baixo.jfif'
   },
   {
     id: 3,
@@ -63,44 +63,44 @@ const products = [
   {
     id: 7,
     name: '',
-    price: 'R$ ,',
+    price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/camisa infantil brasil.jfif'
   },
   {
     id: 8,
     name: '',
-    price: 'R$ ,',
+    price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/camisa infantil mine.webp'
   },
   {
     id: 9,
     name: '',
-    price: 'R$ ,',
+    price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/camisa lisa bege masculina.jfif'
   },
   {
     id: 10,
     name: '',
-    price: 'R$ ,',
+    price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/camiseta_basic_color_preto.webp'
   },
   {
     id: 11,
     name: '',
-    price: 'R$ ,',
+    price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/sapato masculino.jpg'
   },
   {
     id: 12,
     name: '',
-    price: 'R$ ,',
+    price: 'R$ 00,00',
     description: '',
-    image: ''
+    image: '../IMG/Nike rosa.jfif'
   }
 ];
 
