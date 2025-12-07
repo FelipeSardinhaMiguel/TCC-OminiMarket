@@ -4,84 +4,96 @@ const products = [
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/xadrez.jfif'
+    image: '../IMG/xadrez.jfif',
+    vendedor: 'Eduardo Santana'
   },
   {
     id: 2,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/microfone do silvio.webp'
+    image: '../IMG/microfone do silvio.webp',
+    vendedor: 'Rafaella Teles'
   },
   {
     id: 3,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/brinquedo 12.jfif',
+    vendedor: 'Rodrigo Menezes'
   },
   {
     id: 4,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/brinquedo 8.jfif',
+    vendedor: 'Stéfany Lima'
   },
   {
     id: 5,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/brinquedo 7.jfif',
+    vendedor: 'Luiz Fernando'
   },
   {
     id: 6,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/brinquedo 2.jfif',
+    vendedor: 'Priscila Braga'
   },
   {
     id: 7,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/brinquedo 10.jfif',
+    vendedor: 'Caio Henrique'
   },
   {
     id: 8,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/brinquedo 3.jfif',
+    vendedor: 'Márcia Vasconcellos'
   },
   {
     id: 9,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/brinquedo 11.jfif',
+    vendedor: 'Igor Ribeiro'
   },
   {
     id: 10,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/brinquedo 9.jfif',
+    vendedor: 'Caroline Duarte'
   },
   {
     id: 11,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/brinquedo 6.jfif',
+    vendedor: 'Fabio Teixeira'
   },
   {
     id: 12,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/brinquedo 5.jfif',
+    vendedor: 'Estela Araújo'
   }
 ];
 
@@ -129,6 +141,7 @@ function renderProducts() {
         <div class="product-price">${product.price}</div>
         <div class="product-name">${product.name}</div>
         <div class="product-description">${product.description}</div>
+        <div class="product-vendedor">${product.vendedor}</div>
       </div>
     `;
 

@@ -4,84 +4,96 @@ const products = [
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/base em po.jfif'
+    image: '../IMG/base em po.jfif',
+    vendedor: 'Renata Farias'
   },
   {
     id: 2,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/base liquida.webp'
+    image: '../IMG/base liquida.webp',
+    vendedor: 'João Victor'
   },
   {
     id: 3,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/batom avon rosa.jpg'
+    image: '../IMG/batom avon rosa.jpg',
+    vendedor: 'Lívia Pinheiro'
   },
   {
     id: 4,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/deliniador fino.png'
+    image: '../IMG/deliniador fino.png',
+    vendedor: 'Sérgio Almeida'
   },
   {
     id: 5,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/lapis de olho.png'
+    image: '../IMG/lapis de olho.png',
+    vendedor: 'Nicole Batista'
   },
   {
     id: 6,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/po compacto.jpg'
+    image: '../IMG/po compacto.jpg',
+    vendedor: 'Paulo Roberto'
   },
   {
     id: 7,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/gloss.jgp'
+    image: '../IMG/maquiagem 6.jfif',
+    vendedor: 'Mirella Couto'
   },
   {
     id: 8,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/maquiagen 1.jfif',
+    vendedor: 'André Coelho'
   },
   {
     id: 9,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/maquiagem 2.jfif',
+    vendedor: 'Jéssica Moura'
   },
   {
     id: 10,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/maquiagem 3.jfif',
+    vendedor: 'Breno Carvalho'
   },
   {
     id: 11,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/maquiagem 4.jfif',
+    vendedor: 'Samara Rezende'
   },
   {
     id: 12,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/maquiagem 5.jfif',
+    vendedor: 'Eduardo Santana'
   }
 ];
 
@@ -97,6 +109,7 @@ function renderProducts() {
         <div class="product-price">${product.price}</div>
         <div class="product-name">${product.name}</div>
         <div class="product-description">${product.description}</div>
+        <div class="product-vendedor">${product.vendedor}</div>
       </div>
     `;
 

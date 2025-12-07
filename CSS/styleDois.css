@@ -148,7 +148,7 @@ body {
   position: absolute;
   top: 120%;
   left: 0;
-  background-color: var(--white);
+  background-color: var(--gray-light);
   min-width: 180px;
   display: none;
   flex-direction: column;
@@ -386,6 +386,13 @@ body {
 }
 
 .product-name {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--black);
+  margin-bottom: 0.5rem;
+}
+
+.product-vendedor {
   font-size: 1.1rem;
   font-weight: 600;
   color: var(--black);

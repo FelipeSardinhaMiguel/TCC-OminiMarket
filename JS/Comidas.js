@@ -4,84 +4,96 @@ const products = [
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/',
+    vendedor: 'Júlia Assis'
   },
   {
     id: 2,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/',
+    vendedor: 'Eduardo Magalhães'
   },
   {
     id: 3,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/',
+    vendedor: 'Amanda Torres'
   },
   {
     id: 4,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/',
+    vendedor: 'Wagner Nascimento'
   },
   {
     id: 5,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/',
+    vendedor: 'Sabrina Lopes'
   },
   {
     id: 6,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/',
+    vendedor: 'Fábio Araújo'
   },
   {
     id: 7,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/',
+    vendedor: 'Rayssa Figueiredo'
   },
   {
     id: 8,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/',
+    vendedor: 'Maurício Campos'
   },
   {
     id: 9,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/',
+    vendedor: 'Manuella Pereira'
   },
   {
     id: 10,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/',
+    vendedor: 'Daniel Correia'
   },
   {
     id: 11,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/',
+    vendedor: 'Yasmim Costa'
   },
   {
     id: 12,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/',
+    vendedor: 'Gustavo Neri'
   }
 ];
 
@@ -129,6 +141,7 @@ function renderProducts() {
         <div class="product-price">${product.price}</div>
         <div class="product-name">${product.name}</div>
         <div class="product-description">${product.description}</div>
+        <div class="product-vendedor">${product.vendedor}</div>
       </div>
     `;
 

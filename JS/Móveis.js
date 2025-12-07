@@ -4,84 +4,96 @@ const products = [
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/cadeira gamer fox.webp'
+    image: '../IMG/cadeira gamer fox.webp',
+    vendedor: 'Fernando Pontes'
   },
   {
     id: 2,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/mesa de jantar italia.jpg'
+    image: '../IMG/mesa de jantar italia.jpg',
+    vendedor: 'Bruna Ribeiro'
   },
   {
     id: 3,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/poltrona.jfif'
+    image: '../IMG/poltrona.jfif',
+    vendedor: 'Caio César'
   },
   {
     id: 4,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/sofa veludo cinza.jfif'
+    image: '../IMG/sofa veludo cinza.jfif',
+    vendedor: 'Nathalia Queiroz'
   },
   {
     id: 5,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/gabinete banheiro.jfif',
+    vendedor: 'Everton Silva'
   },
   {
     id: 6,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/espelho banheiro.jfif',
+    vendedor: 'Elisa Fernandes'
   },
   {
     id: 7,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/espelho corredor.jfif',
+    vendedor: 'Igor Macedo'
   },
   {
     id: 8,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/bau de quarto.jfif',
+    vendedor: 'Paola Andrade'
   },
   {
     id: 9,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/cama box.jfif',
+    vendedor: 'Samuel Teixeira'
   },
   {
     id: 10,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/abajur.jfif',
+    vendedor: 'Helena Barros'
   },
   {
     id: 11,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/mesinha de canto.jfif',
+    vendedor: 'Renato Dias'
   },
   {
     id: 12,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/ventilador arno.jfif',
+    vendedor: 'Júlia Assis'
   }
 ];
 
@@ -129,6 +141,7 @@ function renderProducts() {
         <div class="product-price">${product.price}</div>
         <div class="product-name">${product.name}</div>
         <div class="product-description">${product.description}</div>
+        <div class="product-vendedor">${product.vendedor}</div>
       </div>
     `;
 

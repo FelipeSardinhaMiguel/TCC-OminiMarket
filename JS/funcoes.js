@@ -1,45 +1,51 @@
 const products = [
   {
     id: 1,
-    name: 'Vendedora: Juliana Guimarães',
+    name: 'Impressora',
     price: 'R$ 349,99',
     description: 'Impressora da marca HG. Impressões em alta qualidade',
-    image: '../IMG/impressora.jfif'
+    image: '../IMG/impressora.jfif',
+    vendedor: 'Juliana Guimarães'
   },
   {
     id: 2,
-    name: 'Vendedor: César Filho',
+    name: 'Ampulheta  de Areia',
     price: 'R$ 74,99',
-    description: 'Modelo clássico de uma ampulheta de areia',
-    image: '../IMG/ampulheta.webp'
+    description: 'Modelo clássico de ampulheta de areia de uma hora',
+    image: '../IMG/ampulheta.webp',
+    vendedor: 'César Filho'
   },
   {
     id: 3,
-    name: 'Vendedor: Renato Vasconcelos',
+    name: 'Tabuleiro de Xadrex',
     price: 'R$ 34,99',
     description: 'Tabuleiro de xadrex com peças de madeira maciça',
-    image: '../IMG/xadrez.jfif'
+    image: '../IMG/xadrez.jfif',
+    vendedor: 'Renato Vasconcelos'
   },
   {
     id: 4,
-    name: 'Vendedor: Chico Roberto de Almeida',
+    name: 'Colar Colorido',
     price: 'R$ 129,99',
     description: 'Colar feminino com joias variadas e coloridas',
-    image: '../IMG/colar colorido.webp'
+    image: '../IMG/colar colorido.webp',
+    vendedor: 'Chico Roberto de Almeida'
   },
   {
     id: 5,
-    name: 'Vendedora: Patricia Anysio Rodrigues',
+    name: 'Calça Cargo Preta',
     price: 'R$ 169,99',
     description: 'Calça unissex modelo cargo',
-    image: '../IMG/Calça cargo preta.webp'
+    image: '../IMG/Calça cargo preta.webp',
+    vendedor: 'Patricia Anysio Rodrigues'
   },
   {
     id: 6,
-    name: 'Ludmilla Costa Albuquerque',
+    name: 'Pendrive Kingston',
     price: 'R$ 27,99',
     description: 'Pendrive dourado de 16GB',
-    image: '../IMG/pendrive kingston 64.jfif'
+    image: '../IMG/pendrive kingston 64.jfif',
+    vendedor: 'Ludmilla Costa Albuquerque'
   }
 ];
 
@@ -75,6 +81,8 @@ const reviews = [
   }
 ];
 
+/*==============================================================*/
+/*alert dos produtos clicados*/
 function renderProducts() {
   const productsGrid = document.getElementById('productsGrid');
 
@@ -87,17 +95,19 @@ function renderProducts() {
         <div class="product-price">${product.price}</div>
         <div class="product-name">${product.name}</div>
         <div class="product-description">${product.description}</div>
-      </div>
-    `;
+        <div class="product-vendedor">${product.vendedor}</div>
+      </div>`;
 
     productCard.addEventListener('click', () => {
-      alert(`Você clicou em: ${product.name}\nPreço: ${product.price}`);
+      alert(`Você clicou em: ${product.name}\nPreço: ${product.price}\nDe: ${product.vendedor}`);
     });
 
     productsGrid.appendChild(productCard);
   });
 }
 
+/*==========================================================================================*/
+/*avaliações dos clientes*/
 function renderReviews() {
   const reviewsGrid = document.getElementById('reviewsGrid');
 
@@ -106,8 +116,7 @@ function renderReviews() {
     reviewCard.className = 'review-card';
 
     const starsHTML = Array(5).fill(0).map((_, index) =>
-      `<span class="star ${index < review.rating ? '' : 'empty'}">★</span>`
-    ).join('');
+      `<span class="star ${index < review.rating ? '' : 'empty'}">★</span>`).join('');
 
     reviewCard.innerHTML = `
       <div class="review-stars">

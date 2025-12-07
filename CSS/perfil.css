@@ -219,3 +219,15 @@ body
   width: 200px;
   border-radius: 50%;
 }
+
+/*==============================================================*/
+
+.tituloCategoria
+{
+  color: var(--black-light);
+}
+
+.imgProduto
+{
+  border-radius: 8px;
+}

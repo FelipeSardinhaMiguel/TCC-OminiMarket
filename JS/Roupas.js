@@ -1,106 +1,99 @@
-/*document.addEventListener("DOMContentLoaded", () => {
-  const subMenus = document.querySelectorAll(".subMenu");
-
-  subMenus.forEach((menu) => {
-    const botao = menu.querySelector(".Produtos");
-    botao.addEventListener("click", (e) => {
-      e.preventDefault(); // evita que o link recarregue a página
-      menu.classList.toggle("ativo"); // alterna entre mostrar/esconder
-
-      // opcional: fecha outros submenus quando abrir um
-      subMenus.forEach((outro) => {
-        if (outro !== menu) {
-          outro.classList.remove("ativo");
-        }
-      });
-    });
-  });
-});*/
-
 const products = [
   {
     id: 1,
     name: 'Tenis Adidas Preto',
     price: 'R$ 209,99',
     description: 'Tênis preto da Adidas para passear',
-    image: '../IMG/Adidas preto.jfif'
+    image: '../IMG/Adidas preto.jfif',
+    vendedor: 'Ana Beatriz'
   },
   {
     id: 2,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
-    image: '../IMG/All Stars cano baixo.jfif'
+    name: 'Tenis All Stars',
+    price: 'R$ 59,99',
+    description: 'Tenis All Stars tamanho 38',
+    image: '../IMG/All Stars cano baixo.jfif',
+    vendedor: 'Lucas Ferreira'
   },
   {
     id: 3,
     name: 'Calça Cargo Preta',
     price: 'R$ 54,99',
     description: 'Calça modelo cargo preta unissex',
-    image: '../IMG/Calça cargo preta.webp'
+    image: '../IMG/Calça cargo preta.webp',
+    vendedor: 'João Pedro'
   },
   {
     id: 4,
     name: 'Calça Jeans Feminina',
     price: 'R$ 129,99',
     description: 'Calça jeans feminina tamanho 38',
-    image: '../IMG/calça jeans feminina.webp'
+    image: '../IMG/calça jeans feminina.webp',
+    vendedor: 'Mariana Oliveira'
   },
   {
     id: 5,
     name: 'Calça Cargo preta',
     price: 'R$ 169,99',
     description: 'Calça unissex modelo cargo',
-    image: '../IMG/camisa feminina branca.jpg'
+    image: '../IMG/camisa feminina branca.jpg',
+    vendedor: 'Lucas Gabriel'
   },
   {
     id: 6,
     name: 'Camiseta Feminina Preta',
     price: 'R$ 107,99',
     description: 'Pendrive dourado de 16GB',
-    image: '../IMG/camisa feminina preta.jfif'
+    image: '../IMG/camisa feminina preta.jfif',
+    vendedor: 'Camila Ferreira'
   },
   {
     id: 7,
-    name: '',
-    price: 'R$ 69,99',
-    description: '',
-    image: '../IMG/cartola.png'
+    name: 'Cartola Preta',
+    price: 'R$ 89,99',
+    description: 'Cartola de veludo preta',
+    image: '../IMG/cartola.png',
+    vendedor: 'Gustavo Andrade'
   },
   {
     id: 8,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
-    image: '../IMG/camisa infantil mine.webp'
+    name: 'Camisa Minecraft',
+    price: 'R$ 54,99',
+    description: 'Camisa infantil Minecraft tamanho p',
+    image: '../IMG/camisa infantil mine.webp',
+    vendedor: 'Rafael Souza'
   },
   {
     id: 9,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
-    image: '../IMG/camisa lisa bege masculina.jfif'
+    name: 'Camiseta Marrom',
+    price: 'R$ 119,99',
+    description: 'Camiseta marrom tamanho M',
+    image: '../IMG/camisa lisa bege masculina.jfif',
+    vendedor: 'Letícia Mendes'
   },
   {
     id: 10,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
-    image: '../IMG/camiseta_basic_color_preto.webp'
+    name: 'Camiseta Preta',
+    price: 'R$ 99,99',
+    description: 'Camiseta oversize preta',
+    image: '../IMG/camiseta_basic_color_preto.webp',
+    vendedor: 'Bruno Albuquerque'
   },
   {
     id: 11,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
-    image: '../IMG/sapato masculino.jpg'
+    name: 'Sapato Social',
+    price: 'R$ 89,99',
+    description: 'Sapato social tamanho 40 preto',
+    image: '../IMG/sapato masculino.jpg',
+    vendedor: 'Vitória Santos'
   },
   {
     id: 12,
-    name: '',
+    name: 'Calça Jeans Clara',
     price: 'R$ 169,99',
-    description: '',
-    image: '../IMG/calça masculina.jfif'
+    description: 'Calça jeans clara masculina',
+    image: '../IMG/calça masculina.jfif',
+    vendedor: 'Guilherme Duarte'
   }
 ];
 
@@ -148,6 +141,7 @@ function renderProducts() {
         <div class="product-price">${product.price}</div>
         <div class="product-name">${product.name}</div>
         <div class="product-description">${product.description}</div>
+        <div class="product-vendedor">${product.vendedor}</div>
       </div>
     `;
 

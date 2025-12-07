@@ -4,84 +4,96 @@ const products = [
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/veiculo 1.jfif',
+    vendedor: 'Micaela Duarte'
   },
   {
     id: 2,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/veiculo 2.jfif',
+    vendedor: 'Ricardo Moura'
   },
   {
     id: 3,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/veiculo 3.jfif',
+    vendedor: 'Tainá Santana'
   },
   {
     id: 4,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/veiculo 4.jfif',
+    vendedor: 'Jorge Henrique'
   },
   {
     id: 5,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/veiculo 5.jfif',
+    vendedor: 'Adriana Souza'
   },
   {
     id: 6,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/veiculo 6.jfif',
+    vendedor: 'Pedro Henrique'
   },
   {
     id: 7,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/veiculo 7.jfif',
+    vendedor: 'Carina Barcellos'
   },
   {
     id: 8,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/veiculo 8.jfif',
+    vendedor: 'Rafael Gomes'
   },
   {
     id: 9,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/veiculo 9.jfif',
+    vendedor: 'Isadora Martins'
   },
   {
     id: 10,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/veiculo 10.jfif',
+    vendedor: 'Marcelo Antunes'
   },
   {
     id: 11,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/veiculo 11.jfif',
+    vendedor: 'Vivian Serra'
   },
   {
     id: 12,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/veiculo 12.jfif',
+    vendedor: 'Thiago Duarte'
   }
 ];
 
@@ -129,6 +141,7 @@ function renderProducts() {
         <div class="product-price">${product.price}</div>
         <div class="product-name">${product.name}</div>
         <div class="product-description">${product.description}</div>
+        <div class="product-vendedor">${product.vendedor}</div>
       </div>
     `;
 

@@ -4,84 +4,96 @@ const products = [
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/brinco azul.jpg'
+    image: '../IMG/brinco azul.jpg',
+    vendedor: 'Bianca Carvalho'
   },
   {
     id: 2,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/brinco comprido verde.jpg'
+    image: '../IMG/brinco comprido verde.jpg',
+    vendedor: 'Felipe Martins'
   },
   {
     id: 3,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/brinco coruja.jpeg'
+    image: '../IMG/brinco coruja.jpeg',
+    vendedor: 'Juliana Alves'
   },
   {
     id: 4,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/brinco tres coracoes.webp'
+    image: '../IMG/brinco tres coracoes.webp',
+    vendedor: 'Matheus Rocha'
   },
   {
     id: 5,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/colar colorido.webp'
+    image: '../IMG/colar colorido.webp',
+    vendedor: ''
   },
   {
     id: 6,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/colar coracao colorido.jpg'
+    image: '../IMG/colar coracao colorido.jpg',
+    vendedor: 'Daniela Cardoso'
   },
   {
     id: 7,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/colar-corrente-masculina.webp',
+    vendedor: 'André Luiz'
   },
   {
     id: 8,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/colar cruz masculino.jfif',
+    vendedor: 'Larissa Lima'
   },
   {
     id: 9,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/brinco masculino.webp',
+    vendedor: 'Diego Moreira'
   },
   {
     id: 10,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/pulseira masculina.jfif',
+    vendedor: 'Rafaela Monteiro'
   },
   {
     id: 11,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/oculos escuros.jfif',
+    vendedor: 'Henrique Barbosa'
   },
   {
     id: 12,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/kit anel viking.jpg',
+    vendedor: 'Isabel Cristina'
   }
 ];
 
@@ -129,6 +141,7 @@ function renderProducts() {
         <div class="product-price">${product.price}</div>
         <div class="product-name">${product.name}</div>
         <div class="product-description">${product.description}</div>
+        <div class="product-vendedor">${product.vendedor}</div>
       </div>
     `;
 
