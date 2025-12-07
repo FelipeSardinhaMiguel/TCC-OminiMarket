@@ -40,7 +40,7 @@ h1
     align-items: center;
     gap: 10px;
     margin-top: 20px;
-    background-color: var(--gold);
+    background-color: var(--gray);
     width: 350px;
 }
 

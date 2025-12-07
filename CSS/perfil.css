@@ -1,64 +1,188 @@
+:root {
+  --gold: #D4AF37; /*background*/
+  --gold-light: #F4E4B7; /*background itens avaliações*/
+  --gold-dark: #B8941F; /*Foto de perfil dos comentaristas*/
+  --black: #000000; /*Footer, "bem vindos", botão de cadastro e login*/
+  --black-light: #1A1A1A;
+  --white: #FFFFFF; /*links footer, barra de pesquisa preços dos produtos*/
+  --gray-light: #F5F5F5;
+  --gray: #CCCCCC; /*estrelas vazia das avaliações*/
+  --transition: all 0.3s ease; /*efeitos de subir*/
+}
+
 body
 {
-    background-color: goldenrod;
+    background-color: var(--gold);
     margin: 0%;
+    line-height: 1.6;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 
-.faixa
-{
-  position: fixed;
-  background-color: /*goldenrod;*/ /*darkred;*/ whitesmoke;
-  width: 100%;
-  height: 70px; /*altura da faixa*/
-  top: 0%; /*para pegar no topo da tela*/
-  left: 0%; /*para pegar nos lados da tela*/
-  z-index: 1000;
-  display: flex;/**/
-  align-items: center;/**/
-  padding: 0 20px;/**/
+.header {
+  background-color: var(--gold);
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-.itemBarra
+.header-container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.logoNavbar
 {
   display: flex;
-  /**/align-items: center;
-  justify-content: space-around;
-  width: 100%;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  margin-right: 50px;
+  border-radius: 8px;
 }
 
-.linksBarra
+.user-info {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.logo-icon {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(135deg, var(--black) 0%, var(--black-light) 100%);
+  color: var(--gold);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.5rem;
+  font-weight: 900;
+  letter-spacing: -2px;
+  font-style: italic;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.imgPerfil
 {
-  color: black;
-  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 8px;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  font-weight: 600;
+  color: var(--black);
+  font-size: 0.95rem;
+}
+
+.user-address {
+  font-size: 0.8rem;
+  color: var(--black-light);
+  opacity: 0.8;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 1.5rem;
+  flex: 1;
+  justify-content: center;
+}
+
+.nav-link {
+  color: var(--black);
   text-decoration: none;
-  transition: 1s;
+  font-weight: 500;
+  font-size: 0.95rem;
+  transition: var(--transition);
+  position: relative;
+  padding: 0.25rem 0;
+  cursor: pointer;
 }
 
-.linksBarra:hover
-{
-  /*color: black;*/
-  background-color: goldenrod;
-  border-radius: 10px;
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: var(--black);
+  transition: var(--transition);
 }
 
-.perfilBtn
-{
-    background-color: black;
-    border-color: goldenrod;
-    color: goldenrod;
-    border-radius: 20px;
-    border-width: 3px;
-    width: 100px;
-    height: 33px;
+.nav-link:hover {
+  color: var(--white);
+  transform: translateY(-2px);
 }
-/*===============================================================*/
+
+.nav-link:hover::after {
+  width: 100%;
+}
+/*===========================================*/
+/*submenu*/
+.dropdown
+{
+  position: relative;
+}
+
+.dropdown .nav-link
+{
+  display: inline-block;
+}
+
+.dropdown-content
+{
+  position: absolute;
+  top: 120%;
+  left: 0;
+  background-color: var(--white);
+  min-width: 180px;
+  display: none;
+  flex-direction: column;
+  border-radius: 6px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 0.5rem 0;
+}
+
+.dropdown-content a
+{
+  padding: 0.7rem 1rem;
+  text-decoration: none;
+  color: var(--black);
+  font-size: 0.9rem;
+  transition: var(--transition);
+  display: block;
+}
+
+.dropdown-content a:hover
+{
+  background-color: var(--gold-light);
+  transform: translateX(5px);
+}
+
+.dropdown:hover .dropdown-content
+{
+  display: flex;
+}
+
+.dropdown:hover > .nav-link
+{
+  color: var(--white);
+  transform: translateY(-2px);
+}
+/*===========================================*/
 
 .faixada
 {
-  margin-top: 70px; /* evita ficar escondida pela navbar fixa */
+  /*margin-top: 80px;*/ 
   height: 300px;
   width: 100%;
   background-image: url(../IMG/paisagens-bonitas.jpg);
@@ -66,7 +190,7 @@ body
   background-position: center;
   background-repeat: no-repeat;
   background-color: aqua;
-  position: relative; /* necessário para posicionar a foto */
+  position: relative;
 }
 
 .faixada img

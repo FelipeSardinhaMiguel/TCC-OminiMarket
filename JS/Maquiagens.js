@@ -4,49 +4,49 @@ const products = [
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/cadeira gamer fox.webp'
+    image: '../IMG/base em po.jfif'
   },
   {
     id: 2,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/mesa de jantar italia.jpg'
+    image: '../IMG/base liquida.webp'
   },
   {
     id: 3,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/poltrona.jfif'
+    image: '../IMG/batom avon rosa.jpg'
   },
   {
     id: 4,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/sofa veludo cinza.jfif'
+    image: '../IMG/deliniador fino.png'
   },
   {
     id: 5,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/lapis de olho.png'
   },
   {
     id: 6,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/po compacto.jpg'
   },
   {
     id: 7,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/'
+    image: '../IMG/gloss.jgp'
   },
   {
     id: 8,
@@ -82,38 +82,6 @@ const products = [
     price: 'R$ 00,00',
     description: '',
     image: '../IMG/'
-  }
-];
-
-/*=====================================================================================================*/
-/*Avaliações dos produtos*/
-const reviews = [
-  {
-    id: 1,
-    product: 'Tênis Adidas - ADI2000',
-    rating: 5,
-    comment: 'Ótimo tênis, serve bem muito confortável',
-    reviewer: 'Fernando Henrique',
-    date: '28/10/2025',
-    avatar: 'FH'
-  },
-  {
-    id: 2,
-    product: 'Sofá Retrátil',
-    rating: 4,
-    comment: 'Chegou antes do prazo estipulado',
-    reviewer: 'Renata Souza',
-    date: '19/09/2024',
-    avatar: 'RS'
-  },
-  {
-    id: 3,
-    product: 'Galinha de Estante',
-    rating: 5,
-    comment: 'Ficou muito bonita, gostei demais',
-    reviewer: 'Pedro Carlos',
-    date: '05/03/2025',
-    avatar: 'PC'
   }
 ];
 

@@ -4,28 +4,28 @@ const products = [
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/cadeira gamer fox.webp'
+    image: '../IMG/'
   },
   {
     id: 2,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/mesa de jantar italia.jpg'
+    image: '../IMG/'
   },
   {
     id: 3,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/poltrona.jfif'
+    image: '../IMG/'
   },
   {
     id: 4,
     name: '',
     price: 'R$ 00,00',
     description: '',
-    image: '../IMG/sofa veludo cinza.jfif'
+    image: '../IMG/'
   },
   {
     id: 5,

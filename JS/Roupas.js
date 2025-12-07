@@ -63,9 +63,9 @@ const products = [
   {
     id: 7,
     name: '',
-    price: 'R$ 00,00',
+    price: 'R$ 69,99',
     description: '',
-    image: '../IMG/camisa infantil brasil.jfif'
+    image: '../IMG/cartola.png'
   },
   {
     id: 8,
@@ -98,9 +98,9 @@ const products = [
   {
     id: 12,
     name: '',
-    price: 'R$ 00,00',
+    price: 'R$ 169,99',
     description: '',
-    image: '../IMG/Nike rosa.jfif'
+    image: '../IMG/calça masculina.jfif'
   }
 ];
 

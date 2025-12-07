@@ -1,42 +1,42 @@
 const products = [
   {
     id: 1,
-    name: 'Impressora',
+    name: 'Vendedora: Juliana Guimarães',
     price: 'R$ 349,99',
     description: 'Impressora da marca HG. Impressões em alta qualidade',
     image: '../IMG/impressora.jfif'
   },
   {
     id: 2,
-    name: 'Ampulheta',
+    name: 'Vendedor: César Filho',
     price: 'R$ 74,99',
     description: 'Modelo clássico de uma ampulheta de areia',
     image: '../IMG/ampulheta.webp'
   },
   {
     id: 3,
-    name: 'Tabuleiro de Xadrez',
+    name: 'Vendedor: Renato Vasconcelos',
     price: 'R$ 34,99',
     description: 'Tabuleiro de xadrex com peças de madeira maciça',
     image: '../IMG/xadrez.jfif'
   },
   {
     id: 4,
-    name: 'Colar com Joias Coloridas',
+    name: 'Vendedor: Chico Roberto de Almeida',
     price: 'R$ 129,99',
     description: 'Colar feminino com joias variadas e coloridas',
     image: '../IMG/colar colorido.webp'
   },
   {
     id: 5,
-    name: 'Calça Cargo preta',
+    name: 'Vendedora: Patricia Anysio Rodrigues',
     price: 'R$ 169,99',
     description: 'Calça unissex modelo cargo',
     image: '../IMG/Calça cargo preta.webp'
   },
   {
     id: 6,
-    name: 'Pendrive Kingston',
+    name: 'Ludmilla Costa Albuquerque',
     price: 'R$ 27,99',
     description: 'Pendrive dourado de 16GB',
     image: '../IMG/pendrive kingston 64.jfif'
