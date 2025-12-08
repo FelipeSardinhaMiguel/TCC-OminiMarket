@@ -9,89 +9,89 @@ const products = [
   },
   {
     id: 2,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Microfone para Lapela',
+    price: 'R$ 30,00',
+    description: 'Microfone de plástico do Silvio Santos.',
     image: '../IMG/microfone do silvio.webp',
     vendedor: 'Rafaella Teles'
   },
   {
     id: 3,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Funko Pop BMO',
+    price: 'R$ 34,99',
+    description: 'Boneco Funko Pop BMO de Hora de Aventura.',
     image: '../IMG/brinquedo 12.jfif',
     vendedor: 'Rodrigo Menezes'
   },
   {
     id: 4,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Trem de Brinquedo',
+    price: 'R$ 44,99',
+    description: 'Ferrovia de brinquedo (2 metros de trilho).',
     image: '../IMG/brinquedo 8.jfif',
     vendedor: 'Stéfany Lima'
   },
   {
     id: 5,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Dinossauro T-Rex',
+    price: 'R$ 18,99',
+    description: 'Dinossauro T-Rex de plástico.',
     image: '../IMG/brinquedo 7.jfif',
     vendedor: 'Luiz Fernando'
   },
   {
     id: 6,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Boneco Steve',
+    price: 'R$ 42,99',
+    description: 'Boneco articulado Steve do Minecraft.',
     image: '../IMG/brinquedo 2.jfif',
     vendedor: 'Priscila Braga'
   },
   {
     id: 7,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Usinho Pelúcia',
+    price: 'R$ 29,99',
+    description: 'Ursinho de pelúcia com coração.',
     image: '../IMG/brinquedo 10.jfif',
     vendedor: 'Caio Henrique'
   },
   {
     id: 8,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Casa de Boneca',
+    price: 'R$ 45,00',
+    description: 'Casa da Barbie.',
     image: '../IMG/brinquedo 3.jfif',
     vendedor: 'Márcia Vasconcellos'
   },
   {
     id: 9,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Pop It',
+    price: 'R$ 18,99',
+    description: 'Pop It colorido.',
     image: '../IMG/brinquedo 11.jfif',
     vendedor: 'Igor Ribeiro'
   },
   {
     id: 10,
-    name: '',
-    price: 'R$ 00,00',
+    name: 'Bola de futebol',
+    price: 'R$ 19,99',
     description: '',
     image: '../IMG/brinquedo 9.jfif',
     vendedor: 'Caroline Duarte'
   },
   {
     id: 11,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Carrinho de Brinquedo',
+    price: 'R$ 19,99',
+    description: 'Carrinho vermelho grande.',
     image: '../IMG/brinquedo 6.jfif',
     vendedor: 'Fabio Teixeira'
   },
   {
     id: 12,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Balde de Praia',
+    price: 'R$ 33,99',
+    description: 'Balde de brinquedo com ferramentas e formas.',
     image: '../IMG/brinquedo 5.jfif',
     vendedor: 'Estela Araújo'
   }
@@ -102,7 +102,7 @@ const products = [
 const reviews = [
   {
     id: 1,
-    product: 'Tênis Adidas - ADI2000',
+    product: 'Tênis Adidas - ADI2099',
     rating: 5,
     comment: 'Ótimo tênis, serve bem muito confortável',
     reviewer: 'Fernando Henrique',

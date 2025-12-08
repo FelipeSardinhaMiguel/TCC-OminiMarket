@@ -1,97 +1,97 @@
 const products = [
   {
     id: 1,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Pó Compacto',
+    price: 'R$ 18,99',
+    description: 'Pó compacto para rosto.',
     image: '../IMG/base em po.jfif',
     vendedor: 'Renata Farias'
   },
   {
     id: 2,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Base Liquida',
+    price: 'R$ 15,99',
+    description: 'Base liquida (esponja não inclusa).',
     image: '../IMG/base liquida.webp',
     vendedor: 'João Victor'
   },
   {
     id: 3,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Batom Rosa',
+    price: 'R$ 18,99',
+    description: 'Batom rosa choque da Avon.',
     image: '../IMG/batom avon rosa.jpg',
     vendedor: 'Lívia Pinheiro'
   },
   {
     id: 4,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Deliniador.',
+    price: 'R$ 20,99',
+    description: 'Deliniador fino.',
     image: '../IMG/deliniador fino.png',
     vendedor: 'Sérgio Almeida'
   },
   {
     id: 5,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Lápis para Boca',
+    price: 'R$ 18,99',
+    description: 'Lápis para contorno lábial.',
     image: '../IMG/lapis de olho.png',
     vendedor: 'Nicole Batista'
   },
   {
     id: 6,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Pó Compacto',
+    price: 'R$ 23,99',
+    description: 'Pó compacto para rosto.',
     image: '../IMG/po compacto.jpg',
     vendedor: 'Paulo Roberto'
   },
   {
     id: 7,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Gloss',
+    price: 'R$ 21,99',
+    description: 'Gloss rosa salmão.',
     image: '../IMG/maquiagem 6.jfif',
     vendedor: 'Mirella Couto'
   },
   {
     id: 8,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Pincel para Maquiagens',
+    price: 'R$ 24,99',
+    description: 'Pincel',
     image: '../IMG/maquiagen 1.jfif',
     vendedor: 'André Coelho'
   },
   {
     id: 9,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Kit de Esponjas',
+    price: 'R$ 27,99',
+    description: 'Cinco esponjas com cores diferentes.',
     image: '../IMG/maquiagem 2.jfif',
     vendedor: 'Jéssica Moura'
   },
   {
     id: 10,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Gliter',
+    price: 'R$ 19,99',
+    description: 'Gliter para maquiagem no rosto.',
     image: '../IMG/maquiagem 3.jfif',
     vendedor: 'Breno Carvalho'
   },
   {
     id: 11,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Lápis de Olho',
+    price: 'R$ 20,99',
+    description: 'Lápis para contorno dos olhos.',
     image: '../IMG/maquiagem 4.jfif',
     vendedor: 'Samara Rezende'
   },
   {
     id: 12,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Bolsa para Maquiagens',
+    price: 'R$ 34,99',
+    description: 'Bolsa de Maquiagem grande preta.',
     image: '../IMG/maquiagem 5.jfif',
     vendedor: 'Eduardo Santana'
   }

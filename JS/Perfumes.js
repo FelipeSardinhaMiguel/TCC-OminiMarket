@@ -1,97 +1,97 @@
 const products = [
   {
     id: 1,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Perfume Salto Alto',
+    price: 'R$ 169,99',
+    description: 'Perfume Carolina Herrera Salto Alto.',
     image: '../IMG/perfume 1.jfif',
     vendedor: 'Estela Araújo'
   },
   {
     id: 2,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Perfume Kaiak',
+    price: 'R$ 88,99',
+    description: 'Perfume masculino Kaiak Oceano.',
     image: '../IMG/perfume 2.jfif',
     vendedor: 'Wallace Martins'
   },
   {
     id: 3,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Perfume Billion',
+    price: 'R$ 64,99',
+    description: 'Perfume Billion 250ml.',
     image: '../IMG/perfume 3.jfif',
     vendedor: 'Tamires Lopes'
   },
   {
     id: 4,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Perfume Bleu de Chanel',
+    price: 'R$ 210,99',
+    description: 'Perfume masculino Bleu de Chanel 200ml.',
     image: '../IMG/perfume 4.webp',
     vendedor: 'Alexandre Silva'
   },
   {
     id: 5,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Perfume Malbec',
+    price: 'R$ 89,99',
+    description: 'Perfume masculino Malbec',
     image: '../IMG/perfumme 5.webp',
     vendedor: 'Bruna Leal'
   },
   {
     id: 6,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Jean Paul Gaultieur',
+    price: 'R$ 249,99',
+    description: 'Perfume masculino JPG Le Male.',
     image: '../IMG/perfume 6.webp',
     vendedor: 'Davi Moretti'
   },
   {
     id: 7,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Perfume do Cebolinha',
+    price: 'R$ 64,99',
+    description: 'Colônia Ceboinha Turma da Monica.',
     image: '../IMG/perfume 7.jfif',
     vendedor: 'Juliane Costa'
   },
   {
     id: 8,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Perfume Feminino',
+    price: 'R$ 109,99',
+    description: 'Perfume feminino de 180ml',
     image: '../IMG/perfume 8.jfif',
     vendedor: 'Leandro Barros'
   },
   {
     id: 9,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Perfume Cristal',
+    price: 'R$ 142,99',
+    description: 'Perfume em formato de cristal.',
     image: '../IMG/perfume 9.jfif',
     vendedor: 'Gabriela Queiroz'
   },
   {
     id: 10,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Perfume 214',
+    price: 'R$ 214,99',
+    description: 'Perfume 214 245ml.',
     image: '../IMG/perfume 10.jfif',
     vendedor: 'Samuel Mourão'
   },
   {
     id: 11,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Perfumo Uomini',
+    price: 'R$ 162,99',
+    description: 'Perfume Uomini masculino.',
     image: '../IMG/perfume 11.jfif',
     vendedor: 'Sara Benevides'
   },
   {
     id: 12,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Perfume Portinari',
+    price: 'R$ 59,99',
+    description: 'Perfume de 250ml Portinari.',
     image: '../IMG/perfume 12.jfif',
     vendedor: 'Matheus Braga'
   }
@@ -102,7 +102,7 @@ const products = [
 const reviews = [
   {
     id: 1,
-    product: 'Tênis Adidas - ADI2000',
+    product: 'Tênis Adidas - ADI2099',
     rating: 5,
     comment: 'Ótimo tênis, serve bem muito confortável',
     reviewer: 'Fernando Henrique',

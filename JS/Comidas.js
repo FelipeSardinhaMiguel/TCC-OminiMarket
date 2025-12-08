@@ -2,97 +2,97 @@ const products = [
   {
     id: 1,
     name: '',
-    price: 'R$ 00,00',
-    description: '',
-    image: '../IMG/',
+    price: 'R$ 1,00',
+    description: 'Brigadeiros, um real cada.',
+    image: '../IMG/comida 1.jfif',
     vendedor: 'Júlia Assis'
   },
   {
     id: 2,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
-    image: '../IMG/',
+    name: 'Bolos Personalizados.',
+    price: 'R$ 67,99',
+    description: 'Peça já seu próprio bolo.',
+    image: '../IMG/comida 2.jfif',
     vendedor: 'Eduardo Magalhães'
   },
   {
     id: 3,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
-    image: '../IMG/',
+    name: 'Coxinhas',
+    price: 'R$ 7,00',
+    description: 'Salgados encomendados.',
+    image: '../IMG/comida 3.jfif',
     vendedor: 'Amanda Torres'
   },
   {
     id: 4,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
-    image: '../IMG/',
-    vendedor: 'Wagner Nascimento'
+    name: 'Pizzas',
+    price: 'R$ 38,69',
+    description: 'Pizzas com os melhores e mais exóticos sabores.',
+    image: '../IMG/comida 4.jfif',
+    vendedor: 'Pará Lanches'
   },
   {
     id: 5,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
-    image: '../IMG/',
-    vendedor: 'Sabrina Lopes'
+    name: 'X - Bacon',
+    price: 'R$ 28,99',
+    description: 'Lanches caseiros e deliciosos.',
+    image: '../IMG/comida 5.jfif',
+    vendedor: 'Sabrina Burguers'
   },
   {
     id: 6,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
-    image: '../IMG/',
-    vendedor: 'Fábio Araújo'
+    name: 'Pães Franceses',
+    price: 'R$ 8,00',
+    description: 'Pães franceses, oito reais cada.',
+    image: '../IMG/comida 6.jfif',
+    vendedor: 'Padaria Fábio Araújo'
   },
   {
     id: 7,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
-    image: '../IMG/',
+    name: 'Potes de Açaí',
+    price: 'R$ 27,99',
+    description: 'Potes pequenos, médios e grandes de açaí.',
+    image: '../IMG/comida 7.jfif',
     vendedor: 'Rayssa Figueiredo'
   },
   {
     id: 8,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
-    image: '../IMG/',
+    name: 'Esfihas Abertas',
+    price: 'R$ 0,99',
+    description: 'Esfihas abertas por 99 centavos cada, sabores de carne, queijo, escarola, frango, etc',
+    image: '../IMG/comida 8.jfif',
     vendedor: 'Maurício Campos'
   },
   {
     id: 9,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
-    image: '../IMG/',
+    name: 'Pastéis e Caldo de Cana',
+    price: 'R$ 16,99',
+    description: 'Vendo pastéis e caldo de cana.',
+    image: '../IMG/comida 9.jfif',
     vendedor: 'Manuella Pereira'
   },
   {
     id: 10,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
-    image: '../IMG/',
+    name: 'Macarons',
+    price: 'R$ 14,99',
+    description: 'Macarons recheados',
+    image: '../IMG/comida 10.jfif',
     vendedor: 'Daniel Correia'
   },
   {
     id: 11,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
-    image: '../IMG/',
+    name: 'Churros',
+    price: 'R$ 11,99',
+    description: 'Churros de variados sabores.',
+    image: '../IMG/comida 11.jfif',
     vendedor: 'Yasmim Costa'
   },
   {
     id: 12,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
-    image: '../IMG/',
+    name: 'Frango Assado',
+    price: 'R$ 49,99',
+    description: 'Frango assaso com batata assada e farofa.',
+    image: '../IMG/comida 12.jfif',
     vendedor: 'Gustavo Neri'
   }
 ];
