@@ -18,10 +18,10 @@ const products = [
   {
     id: 3,
     name: 'Calça Cargo Preta',
-    price: 'R$ 54,99',
-    description: 'Calça modelo cargo preta unissex',
+    price: 'R$ 169,99',
+    description: 'Calça unissex modelo cargo preta unissex',
     image: '../IMG/Calça cargo preta.webp',
-    vendedor: 'João Pedro'
+    vendedor: 'Patricia Anysio Rodrigues.'
   },
   {
     id: 4,

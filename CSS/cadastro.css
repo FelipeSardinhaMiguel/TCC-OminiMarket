@@ -1,17 +1,23 @@
 :root {
-  --gold: #D4AF37; /*background*/
-  --gold-light: #F4E4B7; /*background itens avaliações*/
-  --gold-dark: #B8941F; /*Foto de perfil dos comentaristas*/
-  --black: #000000; /*Footer, "bem vindos", botão de cadastro e login*/
-  --black-light: #1A1A1A;
-  --white: #FFFFFF; /*links footer, barra de pesquisa preços dos produtos*/
-  --gray-light: #F5F5F5;
-  --gray: #CCCCCC; /*estrelas vazia das avaliações*/
-  --transition: all 0.3s ease; /*efeitos de subir*/
+    --gold: #D4AF37;
+    /*background*/
+    --gold-light: #F4E4B7;
+    /*background itens avaliações*/
+    --gold-dark: #B8941F;
+    /*Foto de perfil dos comentaristas*/
+    --black: #000000;
+    /*Footer, "bem vindos", botão de cadastro e login*/
+    --black-light: #1A1A1A;
+    --white: #FFFFFF;
+    /*links footer, barra de pesquisa preços dos produtos*/
+    --gray-light: #F5F5F5;
+    --gray: #CCCCCC;
+    /*estrelas vazia das avaliações*/
+    --transition: all 0.3s ease;
+    /*efeitos de subir*/
 }
 
-body
-{
+body {
     background-image: url(../IMG/logo.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -20,55 +26,310 @@ body
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
 }
 
-.saudacoes
-{
+h1 {
     display: flex;
     justify-content: center;
     color: var(--white);
+    font-size: 40px;
 }
 
-.divInputs
+h2 {
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+    font-size: 30px;
+}
+
+h3 {
+    display: flex;
+    justify-content: left;
+    color: var(--white);
+    font-size: 20px;
+}
+
+p
 {
     display: flex;
-    justify-content: space-around;
+    justify-content: left;
+    color: var(--white);
+    font-size: 20px;
 }
 
-.informacoes
-{
+.divInputs {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    margin-top: 20px;
-    /*background-color: var(--black-light);*/
-    width: 550px;
+    justify-content: center; /* Centraliza tudo */
+    align-items: flex-start; /* Alinha no topo */
+    gap: 20px;               /* Espaço entre as duas caixas */
+    flex-wrap: wrap;         /* IMPORTANTE: Se não couber na tela, joga pra baixo */
+    max-width: 1400px;       /* Limite máximo total */
+    margin: 0 auto;          /* Centraliza na página */
+    padding: 2rem;           /* Espaço nas bordas da tela */
 }
 
-input
-{
-    /*width: 300px;
-    height: 50px;
-    font-size: 15px;
+/*------teste---------------*/
+.form-container {
+    flex: 1 1 500px;
+    max-width: 700px;
+    margin: 0;
+    background: var(--white);
+    padding: 2.5rem;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    background-color: var(--black-light);
+}
+
+.form-container h2 {
     text-align: center;
-    border-radius: 50px;*/
-    width: 400px;
-    flex: 1;
-    padding: 1rem 1.5rem;
-    border: 2px solid var(--black);
+    color: var(--gold-dark);
+    margin-bottom: 1.5rem;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="password"],
+input[type="text"],
+input[type="text"],
+input[type="text"]
+{
+    width: 100%;
+    padding: 12px 15px;
+    margin-bottom: 1rem;
+    border: 2px solid #eee;
     border-radius: 8px;
-    font-size: 1rem;
-    background-color: var(--gray-light);
-    transition: var(--transition);
+    font-family: inherit;
+    transition: border-color 0.3s;
 }
 
 input:focus {
-  outline: none;
-  border-color: var(--gold-dark);
-  box-shadow: 0 0 0 3px rgba(212, 175, 55, 1);
+    outline: none;
+    border-color: var(--gold);
+    box-shadow: 0 0 0 3px rgba(212, 175, 55, 0.795);
+    transition: var(--transition);
 }
 
-.criar
+/*Cpf/CNPJ*/
+.linha-cpf {
+    display: flex;
+    /* Coloca os itens lado a lado */
+    gap: 15px;
+    /* Espaço entre os campos */
+    margin-bottom: 0.2rem;
+}
+
+/* Garante que os inputs preencham o espaço igualmente */
+.linha-cpf input {
+    flex: 1;
+    /* Cada input ocupa o mesmo tamanho (33%) */
+    margin-bottom: 0;
+    /* Remove a margem individual para alinhar certo */
+}
+
+/* Nome*/
+.linha-nome {
+    display: flex;
+    /* Coloca os itens lado a lado */
+    gap: 10px;
+    /* Espaço entre os campos */
+    margin-bottom: 0.2rem;
+}
+
+/* Garante que os inputs preencham o espaço igualmente */
+.linha-nome input {
+    flex: 1; /* Cada input ocupa o mesmo tamanho (33%) */
+    margin-bottom: 0; /* Remove a margem individual para alinhar certo */
+}
+
+/*Nome Social*/
+.linha-social
 {
+    display: flex; /* Coloca os itens lado a lado */
+    gap: 15px; /* Espaço entre os campos */
+    margin-bottom: 0.2rem; /* Espaço para o próximo campo */
+}
+
+/* Garante que os inputs preencham o espaço igualmente */
+.linha-social input
+{
+    flex: 1; /* Cada input ocupa o mesmo tamanho (33%) */
+    margin-bottom: 0; /*Remove a margem individual para alinhar certo */
+}
+
+/*Nome Fantasia*/
+.linha-fantasia
+{
+    display: flex; /*Coloca os itens lado a lado */
+    gap: 15px; /* Espaço entre os campos */
+    margin-bottom: 0.2rem;/* Espaço para o próximo campo (email) */
+}
+
+/* Garante que os inputs preencham o espaço igualmente */
+.linha-fantasia input
+{
+    flex: 1; /* Cada input ocupa o mesmo tamanho (33%) */
+    margin-bottom: 0;/* Remove a margem individual para alinhar certo */
+}
+
+/*DATA*/
+.linha-data
+{
+    display: flex; /* Coloca os itens lado a lado */
+    gap: 15px; /* Espaço entre os campos */
+    margin-bottom: 0.2rem; /* Espaço para o próximo campo (email) */
+}
+
+/* Garante que os inputs preencham o espaço igualmente */
+.linha-data input
+{
+    flex: 1; /* Cada input ocupa o mesmo tamanho (33%) */
+    margin-bottom: 0; /* Remove a margem individual para alinhar certo */
+}
+
+/* Container igual ao .linha-nome */
+.linha-telefone
+{
+    display: flex;
+    justify-content: space-between; /* Garante que usem a largura total */
+    gap: 10px; /* Espaço PEQUENO e fixo entre eles */
+    width: 100%; /* Ocupa 100% do formulário */
+   margin-bottom: 0.2rem;
+}
+
+/* 1. Wrapper DDI (Trava tamanho) */
+.wrapper-ddi
+{
+    flex: 0 0 70px;/* Tamanho FIXO de 80px */
+    position: relative;
+    height: 45px; /* Altura fixa igual para todos */
+    gap: 15px;
+    margin-bottom: 0.2rem;
+}
+
+/* Sinal de + dentro do DDI */
+.wrapper-ddi .sinal-mais {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #555;
+    z-index: 5;
+    pointer-events: none;
+}
+
+/* Input DDI (Espaço na esquerda para o +) */
+.wrapper-ddi input {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 0 2px;
+    /* Ajuste fino */
+    margin: 0;
+}
+
+/* 2. Wrapper DDD (Trava tamanho) */
+.wrapper-ddd {
+    flex: 0 0 70px;
+    /* Tamanho FIXO de 70px */
+    height: 45px;
+    /* Largura fixa um pouco menor */
+    gap: 15px;
+    margin-bottom: 0.2rem;
+}
+
+/* Input DDD (Sem espaço extra na esquerda) */
+.wrapper-ddd input {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 0 0px;
+    /* Ajuste fino */
+    margin: 0;
+}
+
+/* 3. Telefone (Ocupa o resto) */
+.campo-tel {
+    flex: 1;
+    /* CRESCE para ocupar todo o espaço que sobra */
+    height: 20px;
+    /* Mesma altura dos outros */
+    width: 100%;  
+}
+
+.linha-telefone input {
+       flex: 1;
+    /* Cada input ocupa o mesmo tamanho (33%) */
+        margin-bottom: 0;
+    /* Remove a margem individual para alinhar certo */
+    /* Garante que padding não aumente o tamanho */
+}
+
+/*linha  E-mail*/
+.linha-email  {
+    width: 100%;           /* A linha ocupa tudo */
+    margin-bottom: 0.2rem;
+    display: block;  
+
+}
+.linha-email input
+{
+    width: 100% !important; /* !important força a largura total */
+    box-sizing: border-box; /* Garante que padding não aumente o tamanho */
+}
+
+/*linha  login*/
+.login
+{
+    display: flex;         /* Coloca Login e Senha lado a lado */
+    width: 100%;           /* A linha ocupa tudo */
+    gap: 15px;             /* Espaço entre eles */
+    margin-bottom: 0.2rem;
+}
+.linha-login input
+{
+    flex: 1;               /* Divide o espaço igualmente */
+    width: 100% !important;/* Garante que preencham sua metade */
+    box-sizing: border-box;
+}
+/*Senha*/
+.senha
+{
+    display: flex;         /* Coloca Login e Senha lado a lado */
+    width: 100%;           /* A linha ocupa tudo */
+    gap: 15px;             /* Espaço entre eles */
+    margin-bottom: 0.2rem;
+}
+.login input
+{
+    flex: 1;               /* Divide o espaço igualmente */
+    width: 100% !important;/* Garante que preencham sua metade */
+    box-sizing: border-box;
+}
+
+
+
+
+/* RESPONSIVIDADE: No celular, volta a ficar um embaixo do outro */
+
+button, .btn {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(to right, var(--gold), var(--gold-dark));   /*essa linha impede que o hover no botão criar funcione corretamente*/
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: opacity 0.3s;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+.criar {
     display: block;
     margin: 0 auto;
     padding: 0.6rem 1.5rem;
@@ -76,47 +337,67 @@ input:focus {
     border-radius: 6px;
     font-weight: 600;
     cursor: pointer;
-    transition: var(--transition);
     font-size: 0.9rem;
     color: var(--black);
     border: 2px solid var(--black);
+    transition: var(--transition);
     background-color: var(--gray-light);
 }
 
 .criar:hover {
-  background-color: var(--black);
-  color: var(--gold);
-  transform: translateY(-2px);
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    background-color: var(--black); /*o hover não está mudando de cor*/
+    color: var(--black-light);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
 }
 
-.entrar
-{
+.form-entrar {
+    flex: 0 0 350px;
+    max-width: 100%;
+    /* Largura controlada */
+    width: 90%;
+    margin: 0;
+    background: var(--white);
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    box-shadow: var(--shadow);
+    background-color: var(--black-light);
+    height: fit-content;     /* A altura se ajusta ao conteúdo */
+}
+
+.entrar {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 20px;
     margin-top: 20px;
     color: var(--gray);
+    font-size: 25px;
 }
 
-.entrar button
-{
+.entrar button {
+
     background-color: black;
     border-color: goldenrod;
-    color: goldenrod;
+    color: black;
     border-radius: 20px;
     border-width: 3px;
-    width: 150px;
+    width: 100px;
     height: 40px;
     background-color: var(--black);
-    color: var(--gold);
+    color: var(--black);
     border: 2px solid var(--black);
+    display: flex;
+    align-items: center;
+    /* Centraliza verticalmente */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    font-size: 20px;
 }
 
 .entrar button:hover {
     transition: var(--transition);
     background-color: var(--black-light);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px /*rgba(0, 0, 0, 0.3)*/rgba(212, 175, 55, 0.795);
+    box-shadow: 0 4px 12px /*rgba(0, 0, 0, 0.3)*/ rgba(212, 175, 55, 0.795);
 }

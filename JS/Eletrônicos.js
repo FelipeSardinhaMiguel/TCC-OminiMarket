@@ -1,97 +1,97 @@
 const products = [
   {
     id: 1,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Alexia',
+    price: 'R$ 89,99',
+    description: 'Assistente virtual em formato de bola.',
     image: '../IMG/alexia bola.jfif',
     vendedor: 'Thiago Pires'
   },
   {
     id: 2,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Caixa de Som',
+    price: 'R$ 119,99',
+    description: 'Caixa de som grande.',
     image: '../IMG/caixa de som.webp',
     vendedor: 'Nicole Araújo'
   },
   {
     id: 3,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Camera de Segurança',
+    price: 'R$ 109,99',
+    description: 'Camera de segurança residencial.',
     image: '../IMG/camera de segurança.jfif',
     vendedor: 'Vinícius Ramos'
   },
   {
     id: 4,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Camêra Fotografica',
+    price: 'R$ 68,99',
+    description: 'Camera fotografica.',
     image: '../IMG/camera fotografica.jpg',
     vendedor: 'Eduarda Fagundes'
   },
   {
     id: 5,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Celular Xaiomi',
+    price: 'R$ 120,99',
+    description: 'Celular Xaiomi semi-usado.',
     image: '../IMG/celular xaiomi.webp',
     vendedor: 'Leonardo Fonseca'
   },
   {
     id: 6,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Impressora',
+    price: 'R$ 349,99',
+    description: 'Impressora da marca HG. Impresso~es em alta qualidade.',
     image: '../IMG/impressora.jfif',
-    vendedor: 'Patrícia Amaral'
+    vendedor: 'Juliana Guimarães'
   },
   {
     id: 7,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Mesa Digitalizadora',
+    price: 'R$ 159,99',
+    description: 'Mesa digitalizadora (caneta e luvinha incluso).',
     image: '../IMG/mesa digitalizadora.jpg',
     vendedor: 'Marcelo Brito'
   },
   {
     id: 8,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Notebook Vaio',
+    price: 'R$ 226,99',
+    description: 'Notebook Vaio com 256GB.',
     image: '../IMG/notebook vaio.jpg',
     vendedor: 'Aline Costa'
   },
   {
     id: 9,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Mouse Gamer Branco',
+    price: 'R$ 39,99',
+    description: 'Mouse gamer branco bluetooth.',
     image: '../IMG/mouse gamer branco.jfif',
     vendedor: 'Rodrigo Tavares'
   },
   {
     id: 10,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Pendrive Kingston',
+    price: 'R$ 27,99',
+    description: 'Pendrive dourado de 16GB.',
     image: '../IMG/pendrive kingston 64.jfif',
-    vendedor: 'Clara Nogueira'
+    vendedor: 'Ludmila Costa Albuquerque'
   },
   {
     id: 11,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'PlayStation 4',
+    price: 'R$ 339,99',
+    description: 'Playstation 4 (dois jogos incluso).',
     image: '../IMG/ps4.jfif',
     vendedor: 'Alexandre Paiva'
   },
   {
     id: 12,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Caixinha de Som JBL',
+    price: 'R$ 19,99',
+    description: 'Caixinha de som JBL.',
     image: '../IMG/caixinha jbl.jfif',
     vendedor: 'Cecília Medeiros'
   }

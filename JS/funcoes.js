@@ -173,35 +173,28 @@ function setupSearch() {
   });
 }
 
+/*=============================================================*/
+/*aviso de mudança de categoria*/
 document.addEventListener('DOMContentLoaded', () => {
   renderProducts();
   renderReviews();
   setupSearch();
 
-  const navLinks = document.querySelectorAll('.nav-link');
-  navLinks.forEach(link => {
-    link.addEventListener('click', (e) => {
-      e.preventDefault();
+  /*const navLinks = document.querySelectorAll('.nav-link');
+  navLinks.forEach(link => {link.addEventListener('click', (e) => {e.preventDefault();
       const category = link.textContent;
       alert(`Você selecionou a categoria: ${category}`);
     });
-  });
+  });*/
 
   const btnLogin = document.querySelector('.btn-login');
   const btnRegister = document.querySelector('.btn-register');
 
-  btnLogin.addEventListener('click', () => {
-    alert('Funcionalidade de Login em desenvolvimento');
-  });
+  //btnLogin.addEventListener('click', () => {alert('Funcionalidade de Login em desenvolvimento');});
 
-  btnRegister.addEventListener('click', () => {
-    alert('Funcionalidade de Cadastro em desenvolvimento');
-  });
+  //btnRegister.addEventListener('click', () => {alert('Funcionalidade de Cadastro em desenvolvimento');});
 
   const footerLinks = document.querySelectorAll('.footer-link');
-  footerLinks.forEach(link => {
-    link.addEventListener('click', (e) => {
-      e.preventDefault();
-    });
+  footerLinks.forEach(link => {link.addEventListener('click', (e) => {e.preventDefault();});
   });
 });

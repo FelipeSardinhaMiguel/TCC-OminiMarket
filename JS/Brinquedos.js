@@ -1,11 +1,11 @@
 const products = [
   {
     id: 1,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Tabuleiro de Xadrez',
+    price: 'R$ 34,99',
+    description: 'Tabuleiro de xadrez com peças de madeira maciça.',
     image: '../IMG/xadrez.jfif',
-    vendedor: 'Eduardo Santana'
+    vendedor: 'Renato Vasconcelos'
   },
   {
     id: 2,

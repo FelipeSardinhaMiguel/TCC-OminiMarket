@@ -1,97 +1,97 @@
 const products = [
   {
     id: 1,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Cadeira Gamer',
+    price: 'R$ 37,99',
+    description: 'Cadeira gamer branca reclinável.',
     image: '../IMG/cadeira gamer fox.webp',
     vendedor: 'Fernando Pontes'
   },
   {
     id: 2,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Mesa de jantar',
+    price: 'R$ 129,99',
+    description: 'Mesa de jantar grande de 8 pessoas.',
     image: '../IMG/mesa de jantar italia.jpg',
     vendedor: 'Bruna Ribeiro'
   },
   {
     id: 3,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Poltrona',
+    price: 'R$ 129,99',
+    description: 'Poltrona de sala na cor creme.',
     image: '../IMG/poltrona.jfif',
     vendedor: 'Caio César'
   },
   {
     id: 4,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Sofá de veludo',
+    price: 'R$ 158,99',
+    description: 'Sofá de veludo cinza três acentos.',
     image: '../IMG/sofa veludo cinza.jfif',
     vendedor: 'Nathalia Queiroz'
   },
   {
     id: 5,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Gabinete Pequeno de Banheiro',
+    price: 'R$ 144,99',
+    description: 'Gabinete para banheiro.',
     image: '../IMG/gabinete banheiro.jfif',
     vendedor: 'Everton Silva'
   },
   {
     id: 6,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Espelho de Banheiro',
+    price: 'R$ 68,99',
+    description: 'Espelo redondo para banheiro.',
     image: '../IMG/espelho banheiro.jfif',
     vendedor: 'Elisa Fernandes'
   },
   {
     id: 7,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Espelho para Corredor',
+    price: 'R$ 122,99',
+    description: 'Espelho grande reto para corredor e quartos.',
     image: '../IMG/espelho corredor.jfif',
     vendedor: 'Igor Macedo'
   },
   {
     id: 8,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Baú de madeira',
+    price: 'R$ 99,99',
+    description: 'Baú de madeira 220cm X 90cm.',
     image: '../IMG/bau de quarto.jfif',
     vendedor: 'Paola Andrade'
   },
   {
     id: 9,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Cama Box',
+    price: 'R$ 195,99',
+    description: 'Cama box de solteiro.',
     image: '../IMG/cama box.jfif',
     vendedor: 'Samuel Teixeira'
   },
   {
     id: 10,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Abajur de Quarto',
+    price: 'R$ 120,99',
+    description: 'Abajur de modelo antigo para quartos.',
     image: '../IMG/abajur.jfif',
     vendedor: 'Helena Barros'
   },
   {
     id: 11,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Mesinha de Quato',
+    price: 'R$ 104,99',
+    description: 'Mesinha para quartos.',
     image: '../IMG/mesinha de canto.jfif',
     vendedor: 'Renato Dias'
   },
   {
     id: 12,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Ventilador Arno',
+    price: 'R$ 129,99',
+    description: 'Ventilador Arno de seis palhetas.',
     image: '../IMG/ventilador arno.jfif',
     vendedor: 'Júlia Assis'
   }

@@ -1,97 +1,97 @@
 const products = [
   {
     id: 1,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Brinco Azul',
+    price: 'R$ 22,99',
+    description: 'Brinco com perolas verde água',
     image: '../IMG/brinco azul.jpg',
     vendedor: 'Bianca Carvalho'
   },
   {
     id: 2,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Brincos com Esmeralda',
+    price: 'R$ 29,99',
+    description: 'Brincos com esmeraldas em formatos ovais.',
     image: '../IMG/brinco comprido verde.jpg',
     vendedor: 'Felipe Martins'
   },
   {
     id: 3,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Brincos Corujas',
+    price: 'R$ 25,99',
+    description: 'Brincos em formato de corujas com olhos roxos.',
     image: '../IMG/brinco coruja.jpeg',
     vendedor: 'Juliana Alves'
   },
   {
     id: 4,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Brincos Três Corações',
+    price: 'R$ 19,99',
+    description: 'Brinco pequenos em formatos de três corações ',
     image: '../IMG/brinco tres coracoes.webp',
     vendedor: 'Matheus Rocha'
   },
   {
     id: 5,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Colar Colorido',
+    price: 'R$ 129,99',
+    description: 'Colar feminino com joias variadas e coloridas.',
     image: '../IMG/colar colorido.webp',
-    vendedor: ''
+    vendedor: 'Chico Roberto de Almeida'
   },
   {
     id: 6,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Colar Coração Colorido',
+    price: 'R$ 59,99',
+    description: 'Colar feminino em formato de coração colorido.',
     image: '../IMG/colar coracao colorido.jpg',
     vendedor: 'Daniela Cardoso'
   },
   {
     id: 7,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Corrente Masculina',
+    price: 'R$ 44,99',
+    description: 'Corrente masculina.',
     image: '../IMG/colar-corrente-masculina.webp',
     vendedor: 'André Luiz'
   },
   {
     id: 8,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Colar Masculino com Cruz',
+    price: 'R$ 19,99',
+    description: 'Colar com cruz masculina.',
     image: '../IMG/colar cruz masculino.jfif',
     vendedor: 'Larissa Lima'
   },
   {
     id: 9,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Brincos Masculinos',
+    price: 'R$ 36,99',
+    description: 'Brincos Masculinos.',
     image: '../IMG/brinco masculino.webp',
     vendedor: 'Diego Moreira'
   },
   {
     id: 10,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Corrente de Prata',
+    price: 'R$ 49,99',
+    description: 'Corrente masculina prateada.',
     image: '../IMG/pulseira masculina.jfif',
     vendedor: 'Rafaela Monteiro'
   },
   {
     id: 11,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Oculos Escuros',
+    price: 'R$ 22,99',
+    description: 'Oculos Escuros.',
     image: '../IMG/oculos escuros.jfif',
     vendedor: 'Henrique Barbosa'
   },
   {
     id: 12,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Aneis Vikings',
+    price: 'R$ 54,99',
+    description: 'Três anéis com gravuras nórdicas.',
     image: '../IMG/kit anel viking.jpg',
     vendedor: 'Isabel Cristina'
   }

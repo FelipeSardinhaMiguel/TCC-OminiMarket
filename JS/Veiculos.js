@@ -1,97 +1,97 @@
 const products = [
   {
     id: 1,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Bicicleta',
+    price: 'R$ 219,99',
+    description: 'Bicicleta de roda fina.',
     image: '../IMG/veiculo 1.jfif',
     vendedor: 'Micaela Duarte'
   },
   {
     id: 2,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Moto',
+    price: 'R$ 1.804,99',
+    description: 'Motocicleta.',
     image: '../IMG/veiculo 2.jfif',
     vendedor: 'Ricardo Moura'
   },
   {
     id: 3,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Patinete',
+    price: 'R$ 159,99',
+    description: 'Patinete elétrico preto.',
     image: '../IMG/veiculo 3.jfif',
     vendedor: 'Tainá Santana'
   },
   {
     id: 4,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Patis Brancos',
+    price: 'R$ 198,99',
+    description: 'Patins brancos femininnos tamanho 36',
     image: '../IMG/veiculo 4.jfif',
     vendedor: 'Jorge Henrique'
   },
   {
     id: 5,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Hoverboard Rosa',
+    price: 'R$ 149,99',
+    description: 'Hoverboard rosa com 18 horas de bateria.',
     image: '../IMG/veiculo 5.jfif',
     vendedor: 'Adriana Souza'
   },
   {
     id: 6,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Bicicleta Rosa',
+    price: 'R$ 120,99',
+    description: 'Bicicleta pequena rosa infantil.',
     image: '../IMG/veiculo 6.jfif',
     vendedor: 'Pedro Henrique'
   },
   {
     id: 7,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Carro Jesko',
+    price: 'R$ 2.024,99',
+    description: 'Carro de luxo Jesko preto.',
     image: '../IMG/veiculo 7.jfif',
     vendedor: 'Carina Barcellos'
   },
   {
     id: 8,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Van Branca',
+    price: 'R$ 889,99',
+    description: 'Van branca modelo 2010.',
     image: '../IMG/veiculo 8.jfif',
     vendedor: 'Rafael Gomes'
   },
   {
     id: 9,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Fusca Preto 1981',
+    price: 'R$ 1.980,99',
+    description: 'Fuscão Preto feito de aço.',
     image: '../IMG/veiculo 9.jfif',
-    vendedor: 'Isadora Martins'
+    vendedor: 'Almir Rogério'
   },
   {
     id: 10,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Patinete Rosa',
+    price: 'R$ 92,99',
+    description: 'Patinete rosa infantil.',
     image: '../IMG/veiculo 10.jfif',
     vendedor: 'Marcelo Antunes'
   },
   {
     id: 11,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Patins Roxo',
+    price: 'R$ 117,99',
+    description: 'Patins infantil roxo.',
     image: '../IMG/veiculo 11.jfif',
     vendedor: 'Vivian Serra'
   },
   {
     id: 12,
-    name: '',
-    price: 'R$ 00,00',
-    description: '',
+    name: 'Moto Azul',
+    price: 'R$ 1.050,99',
+    description: 'Motocicleta Azul modelo 2007.',
     image: '../IMG/veiculo 12.jfif',
     vendedor: 'Thiago Duarte'
   }

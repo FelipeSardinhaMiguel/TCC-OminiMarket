@@ -9,36 +9,67 @@
     <link rel="shorcut icon" href="IMG/logo tcc.jpeg">
 </head>
 <body>
-    
-    <div class="saudacoes">
-        <h1>Seja bem vindo(a) ao OminiMarket!</h1>
-    </div>
 
     <div class="divInputs">
+        <div class="form-container">
+            <h1>Seja bem vindo(a) ao OminiMarket!</h1>
+            <h2>Crie sua conta</h2>
+            <h3>Dados Pessoais</h3>
+            <div class="form-pessoais">
+                <form>
+                    <!-- Linha Horizontal: Nome, Sobrenome e Nome Social -->
+                    <div class="linha-cpf">
+                        <input type="text" placeholder="CPF/CNPJ" class="cpf-input" required>
+                    </div>
+                    <div class="linha-nome">
+                        <input type="text" placeholder="Nome" required>
+                        <input type="text" placeholder="Sobrenome" required>
+                    </div>
+                    <div class="linha-social">
+                        <input type="text" placeholder="Nome Social (Como prefere ser chamado?)">
+                    </div>
+                    <div class="linha-fantasia">
+                        <input type="text" placeholder="Nome Fantasia (Caaso seja empresa)">
+                    </div>
+                    <div class="linha-data">
+                        <input type="date">
+                    </div>
+                    <div class="linha-telefone">
+                        <!-- DDI (Pequeno) -->
+                        <div class="wrapper-ddi">
+                            <span class="sinal-mais">+</span>
+                            <input type="number" placeholder="55" class="input-ddi">
+                        </div>
+                        <div class="wrapper-ddd">
+                            <input type="number" placeholder="11" class="input-ddi">
+                        </div>
+                        <input type="tel" placeholder="99999-9999" class="campo-tel">
+                    </div>
+                    <div class="linha-email">
+                        <div class="email">
+                            <input type="email" placeholder="Digite seu E-mail">
+                        </div>
+                    </div>
+                    <div class="linha-login">
+                        <div class="login">
+                            <input type="text" placeholder="Digite seu Login">
+                        </div>
+                        <div class="senha">
+                            <input type="text" placeholder="Digite sua Senha">
+                            <input type="text" placeholder="Repita sua Senha">
+                        </div>
+                </form>
+            </div>
+            <button type="submit" class="criar" onclick="criar()">Criar</button>
+        </div>
 
-        <div class="informacoes">
-            <br><br>
-            <input type="text" placeholder="Digite o seu nome completo."><br><br>
-            <input type="date" placeholder="Insira a sua data de nascimento."><br><br>
-            <input type="number" name="" id="" placeholder="Digite o seu telefone."><br><br>
-            <input type="email" placeholder="Digite o seu e-mail."><br><br>
-            <input type="password" placeholder="Crie a sua senha."><br><br>
-            <input type="password" placeholder="Repita sua senha para confirmar."><br><br>
-            <input type="text" placeholder="Digite o seu endereço."><br><br>
-            <input type="number" name="" id="" placeholder="Digite o seu CPF"><br><br>
-            <input type="number" placeholder="Caso tenha, digite o seu CNPJ."><br><br>
+        <div class="form-entrar">
+            <div class="entrar">
+                <p>Já tem uma conta? Clique aqui para entrar.</p>
+                <button onclick="window.location='entrar.html'">Entrar</button>
+            </div>
+
         </div>
     </div>
-    <br>
-
-    <button type="submit" class="criar" onclick="criar()">Criar</button><br><br>
-    
-    <div class="entrar">
-        <p>Já tem uma conta? Clique aqui para entrar.</p>
-        
-        <button onclick="window.location='entrar.html'">Entrar na conta</button>
-    </div>
-    
-
 </body>
 </html>
